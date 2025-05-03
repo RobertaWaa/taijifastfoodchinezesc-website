@@ -35,13 +35,13 @@ const VideoSection = () => {
         </h2>
         <div className="flex justify-center">
           <div className="relative w-full max-w-4xl rounded-lg shadow-2xl overflow-hidden">
-            {/* Pentru un videoclip demonstrativ, vom folosi un videoclip de pe Pexels sau va fi înlocuit ulterior */}
             <video
               ref={videoRef}
               className="w-full h-auto"
               muted
               loop
               playsInline
+              autoPlay
               poster="https://images.pexels.com/photos/6645917/pexels-photo-6645917.jpeg"
             >
               <source

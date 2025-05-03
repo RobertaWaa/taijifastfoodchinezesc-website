@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-chinese-red text-white">
+    <footer className="bg-[#9B0000] text-white">
       <div className="container mx-auto py-10 px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -100,8 +100,24 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-chinese-gold mt-8 pt-6 text-center">
-          <p>&copy; {currentYear} Taiji Fast Food Chinezesc. Toate drepturile rezervate.</p>
+        <div className="border-t border-chinese-gold mt-8 pt-6">
+          <div className="flex flex-wrap justify-center gap-4 mb-4">
+            <Link to="/politica-de-confidentialitate" className="text-sm text-gray-200 hover:text-chinese-gold transition-colors">
+              Politica de confidențialitate
+            </Link>
+            <Link to="/termeni-si-conditii" className="text-sm text-gray-200 hover:text-chinese-gold transition-colors">
+              Termeni și condiții
+            </Link>
+            <a 
+              href="https://anpc.ro/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-sm text-gray-200 hover:text-chinese-gold transition-colors"
+            >
+              ANPC
+            </a>
+          </div>
+          <p className="text-center">&copy; {currentYear} Taiji Fast Food Chinezesc. Toate drepturile rezervate.</p>
         </div>
       </div>
     </footer>
