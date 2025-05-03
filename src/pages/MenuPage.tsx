@@ -6,6 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import MenuCategory from "@/components/menu/MenuCategory";
 import { Info } from "lucide-react";
 import { Helmet } from "react-helmet";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const categories = [
   {
@@ -212,6 +213,7 @@ const categories = [
 
 const MenuPage = () => {
   const [activeCategory, setActiveCategory] = useState(categories[0].id);
+  const isMobile = useIsMobile();
 
   const handleCategoryChange = (categoryId: string) => {
     setActiveCategory(categoryId);
@@ -267,12 +269,12 @@ const MenuPage = () => {
               onValueChange={handleCategoryChange}
               value={activeCategory}
             >
-              <TabsList className="w-full h-auto flex flex-nowrap overflow-x-auto space-x-2 p-1 bg-gray-100 scrollbar-hide">
+              <TabsList className="w-full h-auto flex flex-nowrap overflow-x-auto space-x-2 p-1 bg-gray-100 scrollbar-hide pb-3">
                 {categories.map((category) => (
                   <TabsTrigger 
                     key={category.id} 
                     value={category.id}
-                    className="flex-shrink-0 data-[state=active]:bg-chinese-red data-[state=active]:text-white"
+                    className="flex-shrink-0 data-[state=active]:bg-chinese-red data-[state=active]:text-white whitespace-nowrap"
                   >
                     {category.name}
                   </TabsTrigger>
