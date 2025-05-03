@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import MenuPage from "./pages/MenuPage";
 import ContactPage from "./pages/ContactPage";
 import NutritionalInfoPage from "./pages/NutritionalInfoPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import NotFound from "./pages/NotFound";
 import { Helmet } from "react-helmet";
 
@@ -66,6 +67,7 @@ const App = () => (
             <Route path="/meniu" element={<MenuPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/informatii-nutritionale" element={<NutritionalInfoPage />} />
+            <Route path="/politica-de-confidentialitate" element={<PrivacyPolicyPage />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
