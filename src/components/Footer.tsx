@@ -64,7 +64,7 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4 border-b border-chinese-gold pb-2">Program</h4>
             <p>Luni - Vineri: 20:00 - 23:00</p>
-            <p>Sâmbătă - Duminică: 11:00 - 23:00</p>
+            <p>Sâmbătă - Duminică: 12:00 - 23:00</p>
             <div className="mt-4">
               <p className="flex items-center mb-2">
                 <Phone size={18} className="mr-2" /> 0774605402
