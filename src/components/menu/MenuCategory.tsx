@@ -7,6 +7,7 @@ interface Product {
   name: string;
   description: string;
   weight: string;
+  price?: string;
   image: string;
 }
 
@@ -26,7 +27,7 @@ const MenuCategory = ({ id, name, products }: MenuCategoryProps) => {
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
     >
-      <h2 className="menu-category">{name}</h2>
+      <h2 className="text-2xl font-bold mb-6 text-chinese-red border-b pb-2">{name}</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {products.map((product) => (
           <Card key={product.id} className="overflow-hidden hover:shadow-lg transition-shadow">
@@ -42,11 +43,22 @@ const MenuCategory = ({ id, name, products }: MenuCategoryProps) => {
                 <div>
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-xl font-bold">{product.name}</h3>
-                    <span className="text-sm bg-chinese-gold text-white rounded-full px-2 py-1">
-                      {product.weight}
-                    </span>
+                    <div className="flex flex-col items-end">
+                      {product.price && (
+                        <span className="text-sm bg-chinese-gold text-white rounded-full px-2 py-1 mb-1">
+                          {product.price}
+                        </span>
+                      )}
+                      {product.weight && (
+                        <span className="text-xs text-gray-500">
+                          {product.weight}
+                        </span>
+                      )}
+                    </div>
                   </div>
-                  <p className="text-gray-600">{product.description}</p>
+                  {product.description && (
+                    <p className="text-gray-600">{product.description}</p>
+                  )}
                 </div>
               </CardContent>
             </div>
