@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const WelcomeMessage = () => {
   return (
-    <section className="py-16">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           <motion.div 
@@ -13,7 +13,7 @@ const WelcomeMessage = () => {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <h2 className="section-heading">Bun venit la Taiji</h2>
+            <h2 className="text-3xl font-bold text-chinese-red mb-6">Bun venit la Taiji</h2>
             <p className="text-gray-700 mb-6 text-lg">
               La Taiji Fast Food Chinezesc, te întâmpinăm cu mâncăruri proaspete, preparate din ingrediente de calitate și cu rețete autentice aduse direct din China.
             </p>
@@ -63,7 +63,7 @@ const WelcomeMessage = () => {
               <img 
                 src="https://i.imgur.com/GDVhEr3.png" 
                 alt="Mascota Taiji" 
-                className="rounded-lg shadow-xl relative w-full max-w-md mx-auto"
+                className="rounded-lg shadow-xl relative z-10 w-full max-w-md mx-auto"
               />
             </div>
           </motion.div>
