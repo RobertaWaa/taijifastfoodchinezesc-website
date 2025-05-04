@@ -43,7 +43,25 @@ const nutritionalInfo = [
     protein: 3,
     carbs: 15,
     fat: 12,
-    allergens: "Poate conține soia, alge marine"
+    allergens: "Alge marine, poate conține soia"
+  },
+  {
+    name: "Salată de castraveți",
+    category: "Aperitive",
+    calories: 60,
+    protein: 2,
+    carbs: 10,
+    fat: 0.5,
+    allergens: "Usturoi"
+  },
+  {
+    name: "Salată de urechi de lemn",
+    category: "Aperitive",
+    calories: 80,
+    protein: 3,
+    carbs: 11,
+    fat: 3,
+    allergens: "Usturoi,poate conține susan"
   },
   
   // Supe
@@ -165,6 +183,15 @@ const nutritionalInfo = [
     carbs: 15,
     fat: 18,
     allergens: "Poate conține gluten, soia"
+  },
+  {
+    name: "Pui cu susan",
+    category: "Pui și Rată",
+    calories: 340,
+    protein: 28,
+    carbs: 10,
+    fat: 22,
+    allergens: "Susan, poate conține gluten"
   },
   {
     name: "Aripiore ganbian",

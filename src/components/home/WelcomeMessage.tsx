@@ -1,5 +1,7 @@
 
 import { motion } from "framer-motion";
+import mascotImg from "../../assets/logo_taiji.png";
+
 
 const WelcomeMessage = () => {
   return (
@@ -33,7 +35,6 @@ const WelcomeMessage = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Livrare rapidă</h3>
-                  <p className="text-sm">În mai puțin de 60 min</p>
                 </div>
               </div>
               
@@ -44,8 +45,7 @@ const WelcomeMessage = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold">Ingrediente proaspete</h3>
-                  <p className="text-sm">Calitate garantată</p>
+                  <h3 className="font-semibold">Calitate garantată</h3>
                 </div>
               </div>
             </div>
@@ -59,9 +59,9 @@ const WelcomeMessage = () => {
             viewport={{ once: true }}
           >
             <div className="relative">
-              <div className="absolute -top-4 -left-4 w-full h-full border-2 border-chinese-gold rounded-lg"></div>
+              <div className="absolute  w-full h-full border-2 border-chinese-gold rounded-lg"></div>
               <img 
-                src="https://i.imgur.com/GDVhEr3.png" 
+                src={mascotImg} 
                 alt="Mascota Taiji" 
                 className="rounded-lg shadow-xl relative z-10 w-full max-w-md mx-auto"
               />

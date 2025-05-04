@@ -1,6 +1,7 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
+import styles from './MenuCategory.module.css';
 
 interface Product {
   id: string;
@@ -36,7 +37,7 @@ const MenuCategory = ({ id, name, products }: MenuCategoryProps) => {
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="w-full h-full object-cover"
+                  className={styles.menuItemImage}
                   loading="lazy"
                 />
               </div>

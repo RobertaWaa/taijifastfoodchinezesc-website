@@ -8,7 +8,7 @@ const reviews = [
     id: 1,
     name: "Maria Popa",
     content:
-      "Cel mai bun restaurant chinezesc din București! Îmi place în special puiul Kung Pao și orezul prăjit. Mâncarea este mereu fierbinte și livrarea rapidă.",
+      "Cel mai bun restaurant chinezesc din București! Îmi plac în special creveții cu sos chinezesc. Mâncarea este mereu fierbinte și livrarea rapidă.",
     rating: 5,
   },
   {
@@ -16,20 +16,20 @@ const reviews = [
     name: "Alexandru Ionescu",
     content:
       "Am comandat de la Taiji de mai multe ori și nu am fost niciodată dezamăgit. Porțiile sunt generoase, iar prețurile sunt rezonabile.",
-    rating: 4,
+    rating: 5,
   },
   {
     id: 3,
     name: "Elena Dumitrescu",
     content:
       "Felicitări pentru rețete! Se simte autenticitatea bucătăriei chinezești în fiecare preparat. Voi reveni cu siguranță!",
-    rating: 5,
+    rating: 4,
   },
   {
     id: 4,
     name: "Mihai Georgescu",
     content:
-      "Meniul diversificat și calitatea mâncării m-au făcut client fidel. Recomand tăițeii cu legume și rața în sos dulce-acrișor.",
+      "Meniul diversificat și calitatea mâncării m-au făcut client fidel. Recomand pachețele de primăvară și vita ganbin.",
     rating: 5,
   },
 ];

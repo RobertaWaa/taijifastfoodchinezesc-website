@@ -1,5 +1,7 @@
 
 import { useRef, useEffect } from "react";
+import posterImg from "../../assets/Creveți  cu sos chinezesc.jpg";
+
 
 const VideoSection = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -57,7 +59,7 @@ const VideoSection = () => {
               loop
               playsInline
               autoPlay
-              poster="https://images.pexels.com/photos/6645917/pexels-photo-6645917.jpeg"
+              poster={posterImg}
             >
               <source
                 src="https://player.vimeo.com/external/414980767.hd.mp4?s=9e8040c6af22b16cf9b59a28a3e6b607a547b57b&profile_id=175&oauth2_token_id=57447761"

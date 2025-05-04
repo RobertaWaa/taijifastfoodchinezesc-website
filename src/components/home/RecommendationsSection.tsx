@@ -2,29 +2,35 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+import prImg from "../../assets/Pui Cu Susan.jpg";
+import vImg from "../../assets/Vita ganbin.jpg";
+import pImg from "../../assets/Porc iute.jpg";
+import onImg from "../../assets/Noodles-cu-legume.jpg";
+
+
 const categories = [
   {
     id: "pui-rata",
     name: "Pui și Rată",
-    image: "https://source.unsplash.com/random/300x300/?chinese,chicken",
+    image: prImg,
     description: "Preparate delicioase pe bază de pui și rată în stil chinezesc."
   },
   {
     id: "vita",
     name: "Vită",
-    image: "https://source.unsplash.com/random/300x300/?chinese,beef",
+    image: vImg,
     description: "Preparate cu vită gătite după rețete tradiționale chinezești."
   },
   {
     id: "porc",
     name: "Porc",
-    image: "https://source.unsplash.com/random/300x300/?chinese,pork",
+    image: pImg,
     description: "Specialități cu porc gătite în stilul specific bucătăriei chinezești."
   },
   {
     id: "orez-noodles",
     name: "Orez și Noodles",
-    image: "https://source.unsplash.com/random/300x300/?chinese,noodles",
+    image: onImg,
     description: "Orez și tăiței preparați în diverse stiluri chinezești."
   }
 ];

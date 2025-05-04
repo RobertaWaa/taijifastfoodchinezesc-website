@@ -1,3 +1,7 @@
+import boltLogo from "../../assets/bolt.png";
+import tazzLogo from "../../assets/tazz.png";
+import glovoLogo from "../../assets/glovo.png";
+import takeawayLogo from "../../assets/takeaway.png";
 
 import { motion } from "framer-motion";
 
@@ -5,28 +9,29 @@ const DeliverySection = () => {
   const deliveryPlatforms = [
     {
       name: "Bolt Food",
-      logo: "https://food.bolt.eu/images/bolt-food-logo.svg",
+      logo: boltLogo,
       url: "#"
     },
     {
       name: "Tazz",
-      logo: "https://tazz.ro/static/images/logo.svg",
+      logo: tazzLogo,
       url: "#"
     },
     {
       name: "Glovo",
-      logo: "https://glovoapp.com/images/logo-green.svg",
+      logo: glovoLogo,
       url: "#"
     },
     {
       name: "Takeaway",
-      logo: "https://www.takeaway.com/foodwiki/uploads/sites/11/2020/09/Just_Eat_Takeaway.com_Logo.png",
+      logo: takeawayLogo,
       url: "#"
     }
   ];
+  
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-center section-heading mx-auto">
           Puteți comanda pe:
@@ -47,7 +52,7 @@ const DeliverySection = () => {
               <img
                 src={platform.logo}
                 alt={`${platform.name} Logo`}
-                className="h-16 object-contain"
+                className="h-20 object-contain"
               />
             </motion.a>
           ))}

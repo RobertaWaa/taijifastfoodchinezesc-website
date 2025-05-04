@@ -7,6 +7,42 @@ import MenuCategory from "@/components/menu/MenuCategory";
 import { Info } from "lucide-react";
 import { Helmet } from "react-helmet";
 import { useIsMobile } from "@/hooks/use-mobile";
+import pacheteleImg from '../assets/Pachețele de primăvară.jpg';
+import aripioareDafinImg from '../assets/Aripioare cu foi de dafin.jpg';
+import aripioareNaiImg from '../assets/Aripioare nai nai.jpg';
+import bananeImg from '../assets/Banane.  Prăjite.jpg';
+import crevetiChinezescImg from '../assets/Creveți  cu sos chinezesc.jpg';
+import exploziePuiImg from '../assets/Explozie de pui.jpg';
+import fasoleGanbinImg from '../assets/Fasole ganbin.jpg';
+import furniciImg from '../assets/Furnici in copac.jpg';
+import noodlesFMImg from '../assets/Noodles   Cu fructe  deMare.jpg';
+import nooflesPuiImg from '../assets/Noodles cu pui.jpg';
+import noodlesVitaImg from '../assets/Noodles cu vită.jpg';
+import noodlesLegumeImg from '../assets/Noodles-cu-legume.jpg';
+import orezYImg from '../assets/Orez  yangzu.jpg';
+import porcIuteImg from '../assets/Porc iute.jpg';
+import porcMuxuImg from '../assets/Porc. Mu xu.jpg';
+import porumbPaneImg from '../assets/Porumb pane.jpg';
+import puiCiupImg from '../assets/Pui  cu ciuperci.jpg';
+import puiAluneImg from '../assets/Pui cu alune.jpg';
+import puiSusanImg from '../assets/Pui cu susan.jpg';
+import puidaImg from '../assets/Pui dulce acrișor.jpg';
+import puiShanghaiImg from '../assets/Pui shanghai.jpg';
+import rataPrajitaImg from '../assets/Rață  prăjită.jpg';
+import salataCastImg from '../assets/Salata castraveți.jpg';
+import salataUrechiImg from '../assets/Salata-urechi-de-lemn.jpg';
+import vitaChuanImg from '../assets/Vită  și chuan.jpg';
+import vitaTelinaImg from '../assets/Vita crocanta cu țelină.jpg';
+import vitaCartofiImg from '../assets/Vită cu cartofi.jpg';
+import vitaIuteImg from '../assets/Vita fier de iute.jpg';
+import vitaGanginImg from '../assets/Vita ganbin.jpg';
+import colaImg from '../assets/cola.jpg';
+import spriteImg from '../assets/sprite.jpg';
+import fantaImg from '../assets/fanta.jpg';
+import apaImg from '../assets/apa.jpg';
+import ssImg from '../assets/sos soia.jpg';
+import sdImg from '../assets/sos dulce.jpg';
+import logoImg from '../assets/logo_taiji.png';
 
 const categories = [
   {
@@ -19,7 +55,7 @@ const categories = [
         description: "Varză, morcov, urechi de lemn",
         weight: "250g / 6 buc",
         price: "15 lei",
-        image: "https://source.unsplash.com/random/300x200/?spring,rolls"
+        image: pacheteleImg
       },
       {
         id: "a2",
@@ -27,7 +63,7 @@ const categories = [
         description: "Carne tocată, făină, ceapă verde",
         weight: "250g / 6 buc",
         price: "18 lei",
-        image: "https://source.unsplash.com/random/300x200/?dumplings"
+        image: logoImg
       },
       {
         id: "a3",
@@ -35,15 +71,31 @@ const categories = [
         description: "Piept de pui, făină",
         weight: "300g",
         price: "23 lei",
-        image: "https://source.unsplash.com/random/300x200/?shanghai,chicken"
+        image: puiShanghaiImg
       },
       {
         id: "a4",
         name: "Salată Taiji",
-        description: "Varză, morcov, femei alge de mare",
+        description: "Varză, morcov, alge de mare",
         weight: "250g",
         price: "18 lei",
-        image: "https://source.unsplash.com/random/300x200/?chinese,salad"
+        image: logoImg
+      },
+      {
+        id: "a5",
+        name: "Salată de castraveți",
+        description: "castraveți, usturoi, ardei gras",
+        weight: "250g",
+        price: "18 lei",
+        image: salataCastImg
+      },
+      {
+        id: "a7",
+        name: "Salată de urechi de lemn",
+        description: "urechi de lemn, morcov,castraveți, usturoi, ulei de susan",
+        weight: "250g",
+        price: "18 lei",
+        image: salataUrechiImg
       }
     ]
   },
@@ -57,7 +109,7 @@ const categories = [
         description: "Bambus, urechi de lemn, ou, castraveți",
         weight: "320g",
         price: "12 lei",
-        image: "https://source.unsplash.com/random/300x200/?hot,sour,soup"
+        image: logoImg
       },
       {
         id: "s2",
@@ -65,7 +117,7 @@ const categories = [
         description: "Pui, porumb, ou",
         weight: "320g",
         price: "12 lei",
-        image: "https://source.unsplash.com/random/300x200/?chicken,corn,soup"
+        image: logoImg
       },
       {
         id: "s3",
@@ -73,7 +125,7 @@ const categories = [
         description: "Ciuperci, ou",
         weight: "320g",
         price: "10 lei",
-        image: "https://source.unsplash.com/random/300x200/?mushroom,soup"
+        image: logoImg
       },
       {
         id: "s4",
@@ -81,7 +133,7 @@ const categories = [
         description: "Vită, roșii, ou",
         weight: "320g",
         price: "12 lei",
-        image: "https://source.unsplash.com/random/300x200/?beef,tomato,soup"
+        image: logoImg
       }
     ]
   },
@@ -95,7 +147,7 @@ const categories = [
         description: "Pui, ananas, castraveți, morcov",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?sweet,sour,chicken"
+        image: puidaImg
       },
       {
         id: "pr2",
@@ -103,7 +155,7 @@ const categories = [
         description: "Pui, morcov, ardei gras, usturoi, alge de mare",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?fish,flavor,chicken"
+        image: logoImg
       },
       {
         id: "pr3",
@@ -111,7 +163,7 @@ const categories = [
         description: "Pui, susan",
         weight: "320g",
         price: "26 lei",
-        image: "https://source.unsplash.com/random/300x200/?sesame,chicken"
+        image: logoImg
       },
       {
         id: "pr4",
@@ -119,7 +171,7 @@ const categories = [
         description: "Pui, ciuperci, ceapă verde, ardei gras",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?mushroom,chicken"
+        image: puiCiupImg
       },
       {
         id: "pr5",
@@ -127,7 +179,7 @@ const categories = [
         description: "Pui, ou, morcov, castraveți, urechi de lemn",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?chicken,mushroom"
+        image: logoImg
       },
       {
         id: "pr6",
@@ -135,7 +187,7 @@ const categories = [
         description: "Pui, alune, ceapă, castraveți, morcov",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?kung,pao,chicken"
+        image: puiAluneImg
       },
       {
         id: "pr7",
@@ -143,7 +195,7 @@ const categories = [
         description: "Pui, morcov, ceapă, ardei iute, susan",
         weight: "320g",
         price: "28 lei",
-        image: "https://source.unsplash.com/random/300x200/?spicy,chicken"
+        image: logoImg
       },
       {
         id: "pr8",
@@ -151,7 +203,7 @@ const categories = [
         description: "Pui, morcov, ardei gras, urechi de lemn, ciuperci, bambus",
         weight: "320g",
         price: "24 lei",
-        image: "https://source.unsplash.com/random/300x200/?sizzling,chicken"
+        image: logoImg
       },
       {
         id: "pr9",
@@ -159,39 +211,47 @@ const categories = [
         description: "Pui, condimente chinezești",
         weight: "320g",
         price: "26 lei",
-        image: "https://source.unsplash.com/random/300x200/?explosion,chicken"
+        image: exploziePuiImg
       },
       {
         id: "pr10",
-        name: "Aripiore ganbian",
-        description: "Aripiore de pui, ardei gras, ceapă, susan",
+        name: "Pui cu susan",
+        description: "Pui, susan, salată verde",
         weight: "320g",
-        price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?chicken,wings"
+        price: "24 lei",
+        image: puiSusanImg
       },
       {
         id: "pr11",
+        name: "Aripiore nai nai",
+        description: "Aripiore de pui, ardei gras, ceapă, susan",
+        weight: "320g",
+        price: "25 lei",
+        image: aripioareNaiImg
+      },
+      {
+        id: "pr12",
         name: "Aripiore cu foi de dafin",
         description: "Aripiore de pui, ceapă, ardei gras, foi de dafin",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?bayleaf,chicken"
+        image: aripioareDafinImg
       },
       {
-        id: "pr12",
+        id: "pr13",
         name: "Rață prăjită",
         description: "Rață",
         weight: "300g",
         price: "35 lei",
-        image: "https://source.unsplash.com/random/300x200/?roast,duck"
+        image: rataPrajitaImg
       },
       {
-        id: "pr13",
+        id: "pr14",
         name: "Rață picantă",
         description: "Rață, ardei iute, ceapă",
         weight: "350g",
         price: "36 lei",
-        image: "https://source.unsplash.com/random/300x200/?spicy,duck"
+        image: logoImg
       }
     ]
   },
@@ -205,7 +265,7 @@ const categories = [
         description: "Vită, morcov, ardei gras, urechi de lemn, ciuperci, bambus",
         weight: "320g",
         price: "27 lei",
-        image: "https://source.unsplash.com/random/300x200/?sizzling,beef"
+        image: logoImg
       },
       {
         id: "v2",
@@ -213,7 +273,7 @@ const categories = [
         description: "Vită, ardei iute, ceapă",
         weight: "320g",
         price: "32 lei",
-        image: "https://source.unsplash.com/random/300x200/?spicy,beef"
+        image: vitaIuteImg
       },
       {
         id: "v3",
@@ -221,7 +281,7 @@ const categories = [
         description: "Vită, țelină verde",
         weight: "320g",
         price: "35 lei",
-        image: "https://source.unsplash.com/random/300x200/?celery,beef"
+        image: vitaTelinaImg
       },
       {
         id: "v4",
@@ -229,7 +289,7 @@ const categories = [
         description: "Vită, ardei iute, ceapă, susan",
         weight: "320g",
         price: "35 lei",
-        image: "https://source.unsplash.com/random/300x200/?ganbin,beef"
+        image: vitaGanginImg
       },
       {
         id: "v5",
@@ -237,7 +297,7 @@ const categories = [
         description: "Vită, ardei gras, ceapă, bambus, urechi de lemn",
         weight: "320g",
         price: "28 lei",
-        image: "https://source.unsplash.com/random/300x200/?oyster,sauce,beef"
+        image: logoImg
       },
       {
         id: "v6",
@@ -245,7 +305,7 @@ const categories = [
         description: "Vită, praz, chimen, condimente chinezești",
         weight: "320g",
         price: "30 lei",
-        image: "https://source.unsplash.com/random/300x200/?spiced,beef"
+        image: logoImg
       },
       {
         id: "v7",
@@ -253,7 +313,7 @@ const categories = [
         description: "Vită, cartofi, ardei roșu",
         weight: "320g",
         price: "32 lei",
-        image: "https://source.unsplash.com/random/300x200/?beef,potato"
+        image: vitaCartofiImg
       },
       {
         id: "v8",
@@ -261,7 +321,7 @@ const categories = [
         description: "Vită, ceapă, ciuperci, varză, morcov",
         weight: "350g",
         price: "30 lei",
-        image: "https://source.unsplash.com/random/300x200/?szechuan,beef"
+        image: vitaChuanImg
       }
     ]
   },
@@ -275,7 +335,7 @@ const categories = [
         description: "Porc, ciuperci, ceapă verde",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?pork,mushroom"
+        image: logoImg
       },
       {
         id: "p2",
@@ -283,7 +343,7 @@ const categories = [
         description: "Porc, morcov, ardei gras, ciuperci, bambus",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?sizzling,pork"
+        image: logoImg
       },
       {
         id: "p3",
@@ -291,7 +351,7 @@ const categories = [
         description: "Porc, ou, morcov, castraveți, urechi de lemn",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?muxu,pork"
+        image: porcMuxuImg
       },
       {
         id: "p4",
@@ -299,7 +359,7 @@ const categories = [
         description: "Porc, ardei iute, ceapă",
         weight: "320g",
         price: "25 lei",
-        image: "https://source.unsplash.com/random/300x200/?spicy,pork"
+        image: porcIuteImg
       }
     ]
   },
@@ -313,7 +373,7 @@ const categories = [
         description: "Orez",
         weight: "320g",
         price: "10 lei",
-        image: "https://source.unsplash.com/random/300x200/?plain,rice"
+        image: logoImg
       },
       {
         id: "on2",
@@ -321,7 +381,7 @@ const categories = [
         description: "Orez, legume, pastă de ardei iute",
         weight: "320g",
         price: "13 lei",
-        image: "https://source.unsplash.com/random/300x200/?spicy,rice"
+        image: logoImg
       },
       {
         id: "on3",
@@ -329,7 +389,7 @@ const categories = [
         description: "Orez, soia, ciuperci",
         weight: "320g",
         price: "12 lei",
-        image: "https://source.unsplash.com/random/300x200/?soy,rice"
+        image: logoImg
       },
       {
         id: "on4",
@@ -337,7 +397,7 @@ const categories = [
         description: "Orez, legume, ou, șuncă",
         weight: "320g",
         price: "14 lei",
-        image: "https://source.unsplash.com/random/300x200/?yangzhou,fried,rice"
+        image: orezYImg
       },
       {
         id: "on5",
@@ -345,7 +405,7 @@ const categories = [
         description: "Orez, scoici, creveți, calamar",
         weight: "320g",
         price: "21 lei",
-        image: "https://source.unsplash.com/random/300x200/?curry,seafood,rice"
+        image: logoImg
       },
       {
         id: "on6",
@@ -353,7 +413,7 @@ const categories = [
         description: "Noodles, varză, morcov, ciuperci, ceapă",
         weight: "320g",
         price: "17 lei",
-        image: "https://source.unsplash.com/random/300x200/?vegetable,noodles"
+        image: noodlesLegumeImg
       },
       {
         id: "on7",
@@ -361,7 +421,7 @@ const categories = [
         description: "Noodles, varză, morcov, ciuperci, pui",
         weight: "320g",
         price: "22 lei",
-        image: "https://source.unsplash.com/random/300x200/?chicken,noodles"
+        image: nooflesPuiImg
       },
       {
         id: "on8",
@@ -369,7 +429,7 @@ const categories = [
         description: "Noodles, varză, morcov, ceapă, vită",
         weight: "320g",
         price: "23 lei",
-        image: "https://source.unsplash.com/random/300x200/?beef,noodles"
+        image: noodlesVitaImg
       },
       {
         id: "on9",
@@ -377,7 +437,7 @@ const categories = [
         description: "Noodles, varză, morcov, urechi de lemn, scoici, creveți, calamar",
         weight: "320g",
         price: "24 lei",
-        image: "https://source.unsplash.com/random/300x200/?seafood,noodles"
+        image: noodlesFMImg
       },
       {
         id: "on10",
@@ -385,7 +445,7 @@ const categories = [
         description: "Noodles, legume, carne tocată de porc",
         weight: "320g",
         price: "22 lei",
-        image: "https://source.unsplash.com/random/300x200/?ants,climbing,tree"
+        image: furniciImg
       },
       {
         id: "on11",
@@ -393,7 +453,7 @@ const categories = [
         description: "Fasole verde, ardei gras, ardei iute",
         weight: "320g",
         price: "20 lei",
-        image: "https://source.unsplash.com/random/300x200/?green,beans"
+        image: fasoleGanbinImg
       },
       {
         id: "on12",
@@ -401,7 +461,7 @@ const categories = [
         description: "Vinete, ceapă verde",
         weight: "320g",
         price: "22 lei",
-        image: "https://source.unsplash.com/random/300x200/?fish,flavored,eggplant"
+        image: logoImg
       },
       {
         id: "on13",
@@ -409,7 +469,7 @@ const categories = [
         description: "Cartofi, ardei iute",
         weight: "320g",
         price: "18 lei",
-        image: "https://source.unsplash.com/random/300x200/?fried,potatoes"
+        image: logoImg
       },
       {
         id: "on14",
@@ -417,7 +477,7 @@ const categories = [
         description: "Porumb, amidon",
         weight: "320g",
         price: "18 lei",
-        image: "https://source.unsplash.com/random/300x200/?fried,corn"
+        image: porumbPaneImg
       }
     ]
   },
@@ -431,7 +491,7 @@ const categories = [
         description: "Scoici, creveți, calamar",
         weight: "350g",
         price: "42 lei",
-        image: "https://source.unsplash.com/random/300x200/?seafood,chinese,sauce"
+        image: logoImg
       },
       {
         id: "fm2",
@@ -439,7 +499,7 @@ const categories = [
         description: "Creveți, condimente chinezești",
         weight: "350g",
         price: "48 lei",
-        image: "https://source.unsplash.com/random/300x200/?shrimp,chinese,sauce"
+        image: crevetiChinezescImg
       },
       {
         id: "fm3",
@@ -447,7 +507,7 @@ const categories = [
         description: "Creveți, ardei iute, ceapă",
         weight: "350g",
         price: "46 lei",
-        image: "https://source.unsplash.com/random/300x200/?spicy,shrimp"
+        image: logoImg
       }
     ]
   },
@@ -461,7 +521,7 @@ const categories = [
         description: "",
         weight: "250g",
         price: "12 lei",
-        image: "https://source.unsplash.com/random/300x200/?fried,pineapple"
+        image: logoImg
       },
       {
         id: "d2",
@@ -469,7 +529,7 @@ const categories = [
         description: "",
         weight: "250g",
         price: "11 lei",
-        image: "https://source.unsplash.com/random/300x200/?fried,banana"
+        image: bananeImg
       },
       {
         id: "d3",
@@ -477,7 +537,7 @@ const categories = [
         description: "",
         weight: "250g",
         price: "14 lei",
-        image: "https://source.unsplash.com/random/300x200/?fried,milk"
+        image: logoImg
       }
     ]
   },
@@ -491,7 +551,7 @@ const categories = [
         description: "",
         weight: "0.33L",
         price: "6 lei",
-        image: "https://source.unsplash.com/random/300x200/?coca,cola"
+        image: colaImg
       },
       {
         id: "b2",
@@ -499,7 +559,7 @@ const categories = [
         description: "",
         weight: "0.33L",
         price: "6 lei",
-        image: "https://source.unsplash.com/random/300x200/?fanta"
+        image: fantaImg
       },
       {
         id: "b3",
@@ -507,7 +567,7 @@ const categories = [
         description: "",
         weight: "0.33L",
         price: "6 lei",
-        image: "https://source.unsplash.com/random/300x200/?sprite"
+        image: spriteImg
       },
       {
         id: "b4",
@@ -515,7 +575,7 @@ const categories = [
         description: "",
         weight: "0.5L",
         price: "5 lei",
-        image: "https://source.unsplash.com/random/300x200/?water,bottle"
+        image: apaImg
       }
     ]
   },
@@ -529,7 +589,7 @@ const categories = [
         description: "",
         weight: "",
         price: "2 lei",
-        image: "https://source.unsplash.com/random/300x200/?soy,sauce"
+        image: ssImg
       },
       {
         id: "sos2",
@@ -537,7 +597,7 @@ const categories = [
         description: "",
         weight: "",
         price: "2 lei",
-        image: "https://source.unsplash.com/random/300x200/?hot,sauce"
+        image: logoImg
       },
       {
         id: "sos3",
@@ -545,7 +605,7 @@ const categories = [
         description: "",
         weight: "",
         price: "2 lei",
-        image: "https://source.unsplash.com/random/300x200/?sweet,sauce"
+        image: sdImg
       },
       {
         id: "sos4",
@@ -553,7 +613,7 @@ const categories = [
         description: "",
         weight: "",
         price: "2 lei",
-        image: "https://source.unsplash.com/random/300x200/?chili,sauce"
+        image: logoImg
       }
     ]
   }

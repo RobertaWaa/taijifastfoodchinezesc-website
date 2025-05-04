@@ -45,7 +45,7 @@ const Navbar = () => {
             className="h-16 w-16"
           />
           <span className={`font-bold text-lg ${isScrolled ? 'text-chinese-red' : 'text-chinese-red'}`}>
-            Taiji Fast Food
+            Taiji Fast Food Chinezesc
           </span>
         </Link>
 
