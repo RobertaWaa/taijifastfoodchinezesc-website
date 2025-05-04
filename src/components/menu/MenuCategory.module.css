@@ -1,6 +1,13 @@
 .menuItemImage {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    border-radius: 0.5rem;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .menuItemImage {
+    aspect-ratio: auto;
+    height: 200px; 
   }
+}
