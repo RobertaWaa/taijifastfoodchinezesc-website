@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import heroImg from "../../assets/pattern-taiji.jpg";
 
 interface HeroSectionProps {
   onExploreClick: () => void;
@@ -10,7 +11,15 @@ interface HeroSectionProps {
 
 const HeroSection = ({ onExploreClick }: HeroSectionProps) => {
   return (
-    <section className="relative h-screen flex items-center chinese-pattern">
+    <section
+  className="relative h-screen flex items-center"
+  style={{
+    backgroundImage: `url(${heroImg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="container mx-auto px-4 relative z-10 text-center">
         <motion.div
@@ -36,7 +45,7 @@ const HeroSection = ({ onExploreClick }: HeroSectionProps) => {
             <Button
               asChild
               variant="outline"
-              className="border-chinese-gold text-chinese-gold hover:bg-chinese-gold hover:text-white px-8 py-6 text-lg"
+              className="border-white bg-chinese-gold text-white hover:bg-white hover:text-chinese-gold px-8 py-6 text-lg"
             >
               <Link to="/contact">
                 Contactează-ne
