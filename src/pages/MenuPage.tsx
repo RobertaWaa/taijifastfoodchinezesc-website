@@ -1,10 +1,10 @@
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import MenuCategory from "@/components/menu/MenuCategory";
-import { Info } from "lucide-react";
+import { Info, ChevronLeft, ChevronRight } from "lucide-react";
 import { Helmet } from "react-helmet";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -562,6 +562,21 @@ const categories = [
 const MenuPage = () => {
   const [activeCategory, setActiveCategory] = useState(categories[0].id);
   const isMobile = useIsMobile();
+  const tabsListRef = useRef<HTMLDivElement>(null);
+  
+  const scrollTabs = (direction: 'left' | 'right') => {
+    if (tabsListRef.current) {
+      const scrollAmount = 200;
+      const scrollPosition = direction === 'left' 
+        ? tabsListRef.current.scrollLeft - scrollAmount
+        : tabsListRef.current.scrollLeft + scrollAmount;
+        
+      tabsListRef.current.scrollTo({
+        left: scrollPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   const handleCategoryChange = (categoryId: string) => {
     setActiveCategory(categoryId);
@@ -579,6 +594,30 @@ const MenuPage = () => {
       });
     }
   };
+
+  useEffect(() => {
+    // Scroll to the active category tab on mobile
+    if (tabsListRef.current && isMobile) {
+      const activeTab = tabsListRef.current.querySelector(`[data-state="active"]`);
+      if (activeTab) {
+        const tabsListRect = tabsListRef.current.getBoundingClientRect();
+        const activeTabRect = activeTab.getBoundingClientRect();
+        
+        // Calculate the amount to scroll to center the active tab
+        const scrollPosition = 
+          activeTabRect.left -
+          tabsListRect.left -
+          (tabsListRect.width / 2) +
+          (activeTabRect.width / 2) +
+          tabsListRef.current.scrollLeft;
+        
+        tabsListRef.current.scrollTo({
+          left: scrollPosition,
+          behavior: "smooth"
+        });
+      }
+    }
+  }, [activeCategory, isMobile]);
 
   return (
     <>
@@ -612,25 +651,48 @@ const MenuPage = () => {
 
           {/* Mobile Category Navigation */}
           <div className="md:hidden mb-8">
-            <Tabs 
-              defaultValue={categories[0].id} 
-              onValueChange={handleCategoryChange}
-              value={activeCategory}
-            >
-              <div className="relative">
-                <TabsList className="w-full h-auto flex flex-nowrap overflow-x-auto space-x-2 p-1 bg-gray-100 pb-3 scrollbar-hide">
-                  {categories.map((category) => (
-                    <TabsTrigger 
-                      key={category.id} 
-                      value={category.id}
-                      className="flex-shrink-0 data-[state=active]:bg-chinese-red data-[state=active]:text-white whitespace-nowrap"
-                    >
-                      {category.name}
-                    </TabsTrigger>
-                  ))}
-                </TabsList>
-              </div>
-            </Tabs>
+            <div className="relative">
+              <Tabs 
+                defaultValue={categories[0].id} 
+                onValueChange={handleCategoryChange}
+                value={activeCategory}
+              >
+                <div className="flex items-center">
+                  <Button 
+                    variant="ghost" 
+                    size="icon" 
+                    onClick={() => scrollTabs('left')}
+                    className="flex-shrink-0 text-chinese-red"
+                  >
+                    <ChevronLeft className="h-5 w-5" />
+                  </Button>
+                  
+                  <TabsList 
+                    ref={tabsListRef} 
+                    className="w-full h-auto flex flex-nowrap overflow-x-auto space-x-2 p-1 bg-gray-100 pb-3 scrollbar-hide no-scrollbar"
+                  >
+                    {categories.map((category) => (
+                      <TabsTrigger 
+                        key={category.id} 
+                        value={category.id}
+                        className="flex-shrink-0 data-[state=active]:bg-chinese-red data-[state=active]:text-white whitespace-nowrap"
+                      >
+                        {category.name}
+                      </TabsTrigger>
+                    ))}
+                  </TabsList>
+                  
+                  <Button 
+                    variant="ghost" 
+                    size="icon" 
+                    onClick={() => scrollTabs('right')}
+                    className="flex-shrink-0 text-chinese-red"
+                  >
+                    <ChevronRight className="h-5 w-5" />
+                  </Button>
+                </div>
+              </Tabs>
+            </div>
           </div>
 
           {/* Desktop Category Navigation */}

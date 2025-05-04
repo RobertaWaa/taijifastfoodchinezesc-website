@@ -37,6 +37,7 @@ const MenuCategory = ({ id, name, products }: MenuCategoryProps) => {
                   src={product.image}
                   alt={product.name}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <CardContent className="sm:w-2/3 p-4 flex flex-col justify-between">
