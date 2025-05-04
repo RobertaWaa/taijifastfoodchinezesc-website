@@ -1,3 +1,4 @@
+
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -627,20 +628,23 @@ const MenuPage = () => {
               onValueChange={handleCategoryChange}
               value={activeCategory}
             >
-              <TabsList 
-                ref={tabsListRef} 
-                className="w-full flex flex-wrap justify-center gap-2 p-1 bg-gray-100 overflow-x-auto no-scrollbar"
-              >
-                {categories.map((category) => (
-                  <TabsTrigger 
-                    key={category.id} 
-                    value={category.id}
-                    className="data-[state=active]:bg-chinese-red data-[state=active]:text-white"
-                  >
-                    {category.name}
-                  </TabsTrigger>
-                ))}
-              </TabsList>
+              <div className="overflow-x-auto pb-2">
+                <TabsList 
+                  ref={tabsListRef} 
+                  className="w-max flex space-x-2 p-1 bg-gray-100 overflow-x-visible"
+                  style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+                >
+                  {categories.map((category) => (
+                    <TabsTrigger 
+                      key={category.id} 
+                      value={category.id}
+                      className="whitespace-nowrap data-[state=active]:bg-chinese-red data-[state=active]:text-white"
+                    >
+                      {category.name}
+                    </TabsTrigger>
+                  ))}
+                </TabsList>
+              </div>
             </Tabs>
           </div>
 
