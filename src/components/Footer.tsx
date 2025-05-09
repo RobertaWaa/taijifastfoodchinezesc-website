@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Phone, Mail, MapPin } from "lucide-react";
+import logoTaiji from "@/assets/logo_taiji.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img
-                src="/public/lovable-uploads/d2978da2-974d-4ed5-b0c7-e386f8b3aec1.png"
+                src={logoTaiji}
                 alt="Taiji Fast Food Chinezesc Logo"
                 className="h-16 w-16 mr-3"
               />

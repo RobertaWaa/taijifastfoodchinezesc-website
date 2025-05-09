@@ -1,6 +1,8 @@
 
 import { useRef, useEffect } from "react";
 import posterImg from "../../assets/Creveți  cu sos chinezesc.jpg";
+import videoSrc from "../../assets/videoPromo.mp4";
+
 
 
 const VideoSection = () => {
@@ -51,20 +53,17 @@ const VideoSection = () => {
           Bucătărie chinezească autentică
         </h2>
         <div className="flex justify-center">
-          <div className="relative w-full max-w-4xl rounded-lg shadow-2xl overflow-hidden">
+          <div className="relative w-full max-w-4xl rounded-lg overflow-hidden border-4 border-chinese-gold shadow-[0_0_30px_rgba(255,215,0,0.3)]">
             <video
               ref={videoRef}
-              className="w-full h-auto"
+              className="w-full h-[500px] sm:h-[600px] lg:h-[700px] object-cover object-center"
               muted
               loop
               playsInline
               autoPlay
               poster={posterImg}
             >
-              <source
-                src="https://player.vimeo.com/external/414980767.hd.mp4?s=9e8040c6af22b16cf9b59a28a3e6b607a547b57b&profile_id=175&oauth2_token_id=57447761"
-                type="video/mp4"
-              />
+              <source src={videoSrc} type="video/mp4" />
               Browserul dvs. nu suportă tag-ul video.
             </video>
             <div className="absolute inset-0 bg-black bg-opacity-20 pointer-events-none"></div>

@@ -13,6 +13,8 @@ import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsAndConditionsPage from "./pages/TermsAndConditionsPage";
 import NotFound from "./pages/NotFound";
 import { Helmet } from "react-helmet";
+import logoTaiji from "@/assets/logo_taiji.png";
+
 
 const queryClient = new QueryClient();
 
@@ -28,7 +30,7 @@ const App = () => (
               "@context": "https://schema.org",
               "@type": "Restaurant",
               "name": "Taiji Fast Food Chinezesc",
-              "image": "/public/lovable-uploads/d2978da2-974d-4ed5-b0c7-e386f8b3aec1.png",
+              "image": {logoTaiji},
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Strada Telița, Nr. 54",

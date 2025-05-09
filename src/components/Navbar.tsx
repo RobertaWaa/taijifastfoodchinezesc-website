@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoTaiji from "@/assets/logo_taiji.png";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +42,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
           <img
-            src="/public/lovable-uploads/d2978da2-974d-4ed5-b0c7-e386f8b3aec1.png"
+            src={logoTaiji}
             alt="Taiji Fast Food Chinezesc Logo"
             className="h-16 w-16"
           />
