@@ -29,7 +29,8 @@ const HomePage = () => {
         />
       </Helmet>
 
-      <div className="pt-16">
+      <div className="pt-16 overflow-x-hidden">
+
         {/* Hero Section */}
         <HeroSection onExploreClick={scrollToRecommendations} />
 
