@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import MenuCategory from "@/components/menu/MenuCategory";
 import { Info } from "lucide-react";
-import { Helmet } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useIsMobile } from "@/hooks/use-mobile";
 import pacheteleImg from '@/assets/pachetele-primavara.jpg';
 import aripioareDafinImg from '@/assets/aripioare-dafin.jpg';
@@ -652,7 +652,7 @@ const MenuPage = () => {
   }, [activeCategory, isMobile]);
 
   return (
-    <>
+    <HelmetProvider>
       <Helmet>
         <title>Meniu | Taiji Fast Food Chinezesc</title>
         <meta
@@ -742,7 +742,7 @@ const MenuPage = () => {
           </div>
         </div>
       </div>
-    </>
+    </HelmetProvider>
   );
 };
 
