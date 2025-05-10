@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import prImg from '@/assets/pui-susan.jpg';
 import vImg from "@/assets/vita-ganbin.jpg";
 import pImg from "@/assets/porc-iute.jpg";
-import onImg from "@/assets/noodles-cu-legume.jpg";
+import onImg from "@/assets/noodles-legume.jpg";
 
 
 const categories = [

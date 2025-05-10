@@ -18,7 +18,7 @@ import furniciImg from '@/assets/furnici-copac.jpg';
 import noodlesFMImg from '@/assets/noodles-mare.jpg';
 import nooflesPuiImg from '@/assets/noodles-pui.jpg';
 import noodlesVitaImg from '@/assets/noodles-vita.jpg';
-import noodlesLegumeImg from '@/assets/noodles-cu-legume.jpg';
+import noodlesLegumeImg from '@/assets/noodles-legume.jpg';
 import orezYImg from '@/assets/orez-yangzu.jpg';
 import porcIuteImg from '@/assets/porc-iute.jpg';
 import porcMuxuImg from '@/assets/porc-muxu.jpg';
