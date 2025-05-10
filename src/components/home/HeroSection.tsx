@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroImg from "../../assets/pattern-taiji.jpg";
+import heroImg from "@/assets/pattern-taiji.jpg";
 
 interface HeroSectionProps {
   onExploreClick: () => void;

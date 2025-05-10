@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import mascotImg from "../../assets/logo_taiji.png";
+import mascotImg from "@/assets/logo_taiji.png";
 
 
 const WelcomeMessage = () => {

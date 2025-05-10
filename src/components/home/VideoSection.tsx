@@ -1,7 +1,7 @@
 
 import { useRef, useEffect } from "react";
-import posterImg from "../../assets/Creveți  cu sos chinezesc.jpg";
-import videoSrc from "../../assets/videoPromo.mp4";
+import posterImg from "@/assets/creveti-cu-sos.jpg";
+import videoSrc from "@/assets/videoPromo.mp4";
 
 
 

@@ -1,7 +1,7 @@
-import boltLogo from "../../assets/bolt.png";
-import tazzLogo from "../../assets/tazz.png";
-import glovoLogo from "../../assets/glovo.png";
-import takeawayLogo from "../../assets/takeaway.png";
+import boltLogo from "@/assets//bolt.png";
+import tazzLogo from "@/assets//tazz.png";
+import glovoLogo from "@/assets//glovo.png";
+import takeawayLogo from "@/assets//takeaway.png";
 
 import { motion } from "framer-motion";
 

@@ -26,4 +26,5 @@ export default defineConfig(({ mode }) => ({
       external: ['@rollup/rollup-linux-x64-gnu'], 
     },
   },
+  assetsInclude: ['**/*.jpg', '**/*.png', '**/*.jpeg'],
 }));

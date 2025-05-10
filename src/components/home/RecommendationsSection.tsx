@@ -2,10 +2,10 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import prImg from '@/assets/Pui Cu Susan.jpg';
-import vImg from "@/assets/Vita ganbin.jpg";
-import pImg from "@/assets/Porc iute.jpg";
-import onImg from "@/assets/Noodles-cu-legume.jpg";
+import prImg from '@/assets/pui-susan.jpg';
+import vImg from "@/assets/vita-ganbin.jpg";
+import pImg from "@/assets/porc-iute.jpg";
+import onImg from "@/assets/noodles-cu-legume.jpg";
 
 
 const categories = [
