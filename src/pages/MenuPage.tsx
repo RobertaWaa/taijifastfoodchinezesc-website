@@ -30,7 +30,7 @@ import puidaImg from '@/assets/pui-acrișor.jpg';
 import puiShanghaiImg from '@/assets/pui-shanghai.jpg';
 import rataPrajitaImg from '@/assets/rata-prajita.jpg';
 import salataCastImg from '@/assets/salata-castraveti.jpg';
-import salataUrechiImg from '@/assets/salata-urechi-de-lemn.jpg';
+import salataUrechiImg from '@/assets/salata-urechi.jpg';
 import vitaChuanImg from '@/assets/vita-chuan.jpg';
 import vitaTelinaImg from '@/assets/vita-telina.jpg';
 import vitaCartofiImg from '@/assets/vita-cartofi.jpg';
