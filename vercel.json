@@ -1,13 +1,21 @@
 {
-    "installCommand": "yarn install",
-    "buildCommand": "yarn build",
-    "routes": [
+  "version": 2,
+  "builds": [
     {
-      "src": "/[^.]+",
+      "src": "vite.config.ts",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist",
+        "installCommand": "yarn install",
+        "buildCommand": "yarn build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
       "dest": "/index.html",
       "status": 200
     }
   ]
-  }
-
-  
+}

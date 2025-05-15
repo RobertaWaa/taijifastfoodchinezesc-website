@@ -12,7 +12,7 @@ import NutritionalInfoPage from "./pages/NutritionalInfoPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsAndConditionsPage from "./pages/TermsAndConditionsPage";
 import NotFound from "./pages/NotFound";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import logoTaiji from "@/assets/logo_taiji.png";
 
 
@@ -23,59 +23,61 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <Helmet>
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Restaurant",
-              "name": "Taiji Fast Food Chinezesc",
-              "image": {logoTaiji},
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Strada Telița, Nr. 54",
-                "addressLocality": "București",
-                "addressRegion": "Sector 5",
-                "postalCode": "",
-                "addressCountry": "RO"
-              },
-              "telephone": "0774605402",
-              "email": "taijifastfoodchinezesc@gmail.com",
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                  "opens": "20:00",
-                  "closes": "23:00"
+      <HelmetProvider>
+        <Helmet>
+          <script type="application/ld+json">
+            {`
+              {
+                "@context": "https://schema.org",
+                "@type": "Restaurant",
+                "name": "Taiji Fast Food Chinezesc",
+                "image": "${logoTaiji}",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Strada Telița, Nr. 54",
+                  "addressLocality": "București",
+                  "addressRegion": "Sector 5",
+                  "postalCode": "",
+                  "addressCountry": "RO"
                 },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Saturday", "Sunday"],
-                  "opens": "11:00",
-                  "closes": "23:00"
-                }
-              ],
-              "servesCuisine": "Chinese",
-              "priceRange": "$$",
-              "menu": "https://taijifastfood.com/meniu",
-              "acceptsReservations": "True"
-            }
-          `}
-        </script>
-      </Helmet>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path="/meniu" element={<MenuPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/informatii-nutritionale" element={<NutritionalInfoPage />} />
-            <Route path="/politica-de-confidentialitate" element={<PrivacyPolicyPage />} />
-            <Route path="/termeni-si-conditii" element={<TermsAndConditionsPage />} />
-            <Route path="*" element={<NotFound />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+                "telephone": "0774605402",
+                "email": "taijifastfoodchinezesc@gmail.com",
+                "openingHoursSpecification": [
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                    "opens": "20:00",
+                    "closes": "23:00"
+                  },
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Saturday", "Sunday"],
+                    "opens": "11:00",
+                    "closes": "23:00"
+                  }
+                ],
+                "servesCuisine": "Chinese",
+                "priceRange": "$$",
+                "menu": "https://taijifastfood.com/meniu",
+                "acceptsReservations": "True"
+              }
+            `}
+          </script>
+        </Helmet>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<HomePage />} />
+              <Route path="/meniu" element={<MenuPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="/informatii-nutritionale" element={<NutritionalInfoPage />} />
+              <Route path="/politica-de-confidentialitate" element={<PrivacyPolicyPage />} />
+              <Route path="/termeni-si-conditii" element={<TermsAndConditionsPage />} />
+              <Route path="*" element={<NotFound />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </HelmetProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
