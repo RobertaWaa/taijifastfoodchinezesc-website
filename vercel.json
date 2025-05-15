@@ -1,4 +1,13 @@
 {
     "installCommand": "yarn install",
-    "buildCommand": "yarn build"
+    "buildCommand": "yarn build",
+    "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/index.html",
+      "status": 200
+    }
+  ]
   }
+
+  
