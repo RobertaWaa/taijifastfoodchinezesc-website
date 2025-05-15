@@ -65,18 +65,18 @@ const App = () => (
           </script>
         </Helmet>
         <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route index element={<HomePage />} />
-              <Route path="/meniu" element={<MenuPage />} />
-              <Route path="/contact" element={<ContactPage />} />
-              <Route path="/informatii-nutritionale" element={<NutritionalInfoPage />} />
-              <Route path="/politica-de-confidentialitate" element={<PrivacyPolicyPage />} />
-              <Route path="/termeni-si-conditii" element={<TermsAndConditionsPage />} />
-              <Route path="*" element={<NotFound />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
+  <Routes>
+    <Route element={<Layout />}>
+      <Route path="/" element={<HomePage />} />
+      <Route path="meniu" element={<MenuPage />} />
+      <Route path="contact" element={<ContactPage />} />
+      <Route path="informatii-nutritionale" element={<NutritionalInfoPage />} />
+      <Route path="politica-de-confidentialitate" element={<PrivacyPolicyPage />} />
+      <Route path="termeni-si-conditii" element={<TermsAndConditionsPage />} />
+      <Route path="*" element={<NotFound />} />
+    </Route>
+  </Routes>
+</BrowserRouter>
       </HelmetProvider>
     </TooltipProvider>
   </QueryClientProvider>
