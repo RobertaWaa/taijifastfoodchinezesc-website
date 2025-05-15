@@ -19,11 +19,15 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    outDir: "dist",          
-    sourcemap: mode === 'development', 
-    chunkSizeWarningLimit: 1600, 
-    rollupOptions: {        
-      external: ['@rollup/rollup-linux-x64-gnu'], 
+    outDir: "dist",
+    emptyOutDir: true, // Adăugat pentru a șterge conținutul vechi la fiecare build
+    sourcemap: mode === 'development',
+    chunkSizeWarningLimit: 1600,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html') // Adăugat pentru Vercel
+      },
+      external: ['@rollup/rollup-linux-x64-gnu'],
     },
   },
   assetsInclude: ['**/*.jpg', '**/*.png', '**/*.jpeg'],

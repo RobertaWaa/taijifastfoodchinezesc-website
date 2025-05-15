@@ -7,7 +7,8 @@
       "config": {
         "distDir": "dist",
         "installCommand": "yarn install",
-        "buildCommand": "yarn build"
+        "buildCommand": "yarn build",
+        "outputDirectory": "dist"
       }
     }
   ],
@@ -16,12 +17,6 @@
       "src": "/(.*)",
       "dest": "/index.html",
       "status": 200
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ]
 }
