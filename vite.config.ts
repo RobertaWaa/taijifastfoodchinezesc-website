@@ -20,13 +20,11 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     outDir: "dist",
-    emptyOutDir: true, // Adăugat pentru a șterge conținutul vechi la fiecare build
+    emptyOutDir: true,
     sourcemap: mode === 'development',
     chunkSizeWarningLimit: 1600,
     rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'index.html') // Adăugat pentru Vercel
-      },
+      input: path.resolve(__dirname, 'index.html'),
       external: ['@rollup/rollup-linux-x64-gnu'],
     },
   },

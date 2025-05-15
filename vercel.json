@@ -7,14 +7,13 @@
       "config": {
         "distDir": "dist",
         "installCommand": "yarn install",
-        "buildCommand": "yarn build",
-        "outputDirectory": "dist"
+        "buildCommand": "yarn build"
       }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/.*",
       "dest": "/index.html",
       "status": 200
     }
