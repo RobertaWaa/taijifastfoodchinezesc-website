@@ -433,9 +433,10 @@ const nutritionalInfo = [
     fat: 8,
     allergens: "Gluten, poate conține soia, ou"
   },
+  //Legume
   {
     name: "Fasole ganbin",
-    category: "Orez și Noodles",
+    category: "Legume",
     calories: 220,
     protein: 6,
     carbs: 28,
@@ -444,7 +445,7 @@ const nutritionalInfo = [
   },
   {
     name: "Vinete cu aroma de pește",
-    category: "Orez și Noodles",
+    category: "Legume",
     calories: 240,
     protein: 4,
     carbs: 20,
@@ -453,7 +454,7 @@ const nutritionalInfo = [
   },
   {
     name: "Cartofi pane",
-    category: "Orez și Noodles",
+    category: "Legume",
     calories: 300,
     protein: 4,
     carbs: 45,
@@ -462,7 +463,7 @@ const nutritionalInfo = [
   },
   {
     name: "Porumb pane",
-    category: "Orez și Noodles",
+    category: "Legume",
     calories: 280,
     protein: 5,
     carbs: 40,
