@@ -341,7 +341,7 @@ const categories = [
       {
         id: "v9",
         name: "Vită fiartă iute",
-        description: "Vită, ",
+        description: "Vită, varză, urechi de lemn, ceapă verde, castravete, usturoi",
         weight: "500g",
         price: "40 lei",
         image: vitaIuteImg
@@ -578,7 +578,7 @@ const categories = [
         name: "Coca Cola",
         description: "",
         weight: "0.33L",
-        price: "6 lei",
+        price: "8 lei",
         image: colaImg
       },
       {
@@ -586,7 +586,7 @@ const categories = [
         name: "Fanta",
         description: "",
         weight: "0.33L",
-        price: "6 lei",
+        price: "8 lei",
         image: fantaImg
       },
       {
@@ -594,7 +594,7 @@ const categories = [
         name: "Sprite",
         description: "",
         weight: "0.33L",
-        price: "6 lei",
+        price: "8 lei",
         image: spriteImg
       },
       {
@@ -602,7 +602,7 @@ const categories = [
         name: "Apă plată",
         description: "",
         weight: "0.5L",
-        price: "5 lei",
+        price: "8 lei",
         image: apaImg
       }
     ]
