@@ -57,6 +57,14 @@ import orezsoiaImg from '@/assets/orez-soia.jpg';
 import orezcurryImg from '@/assets/orez-curry.jpg';
 import cartofipaneImg from '@/assets/cartofi-pane.jpg';
 import fructesosImg from '@/assets/fructe-mare-sos.jpg';
+import ananasImg from '@/assets/ananas-prajit.jpg';
+import crevetiPicantiImg from '@/assets/creveti-picanti.jpg';
+import coltunasiImg from '@/assets/coltunasi.jpg';
+import salataTaijiImg from '@/assets/salata-taiji.jpg';
+import supaiuteacImg from '@/assets/supa-iute-acrisoara.jpg';
+import supapuiporumbImg from '@/assets/supa-pui-porumb.jpg';
+import ratapicantaImg from '@/assets/rata-picanta.jpg';
+import vitapicantaImg from '@/assets/vita-picanta.jpg';
 import logoImg from '@/assets/logo_taiji.png';
 
 const categories = [
@@ -78,7 +86,7 @@ const categories = [
         description: "Carne tocată, făină, ceapă verde",
         weight: "250g / 6 buc",
         price: "18 lei",
-        image: logoImg
+        image: coltunasiImg
       },
       {
         id: "a3",
@@ -94,7 +102,7 @@ const categories = [
         description: "Varză, morcov, alge de mare",
         weight: "250g",
         price: "18 lei",
-        image: logoImg
+        image: salataTaijiImg
       },
       {
         id: "a5",
@@ -124,7 +132,7 @@ const categories = [
         description: "Bambus, urechi de lemn, ou, castraveți",
         weight: "320g",
         price: "12 lei",
-        image: logoImg
+        image: supaiuteacImg
       },
       {
         id: "s2",
@@ -132,7 +140,7 @@ const categories = [
         description: "Pui, porumb, ou",
         weight: "320g",
         price: "12 lei",
-        image: logoImg
+        image: supapuiporumbImg
       },
       {
         id: "s3",
@@ -266,7 +274,7 @@ const categories = [
         description: "Rață, ardei iute, ceapă",
         weight: "350g",
         price: "36 lei",
-        image: logoImg
+        image: ratapicantaImg
       }
     ]
   },
@@ -288,7 +296,7 @@ const categories = [
         description: "Vită, ardei iute, ceapă",
         weight: "320g",
         price: "34 lei",
-        image: logoImg
+        image: vitapicantaImg
       },
       {
         id: "v3",
@@ -535,7 +543,7 @@ const categories = [
         description: "Creveți, ardei iute, ceapă",
         weight: "350g",
         price: "46 lei",
-        image: logoImg
+        image: crevetiPicantiImg
       }
     ]
   },
@@ -549,7 +557,7 @@ const categories = [
         description: "",
         weight: "250g",
         price: "13 lei",
-        image: logoImg
+        image: ananasImg
       },
       {
         id: "d2",
