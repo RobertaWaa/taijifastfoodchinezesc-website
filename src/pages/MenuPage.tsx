@@ -222,7 +222,7 @@ const categories = [
       },
       {
         id: "pr7",
-        name: "Pui gan bian",
+        name: "Pui ganbin",
         description: "Pui, morcov, ceapă, ardei iute, susan",
         weight: "320g",
         price: "30 lei",
@@ -254,7 +254,7 @@ const categories = [
       },
       {
         id: "pr11",
-        name: "Aripiore gan bian",
+        name: "Aripiore nai nai",
         description: "Aripiore de pui, ardei gras, ceapă, susan",
         weight: "320g",
         price: "28 lei",
@@ -316,7 +316,7 @@ const categories = [
       },
       {
         id: "v4",
-        name: "Vită gan bian",
+        name: "Vită ganbin",
         description: "Vită, ardei iute, ceapă, susan",
         weight: "320g",
         price: "33 lei",
@@ -324,7 +324,7 @@ const categories = [
       },
       {
         id: "v5",
-        name: "Vită în sos stridie",
+        name: "Vită cu sos stridii",
         description: "Vită, ardei gras, ceapă, bambus, urechi de lemn",
         weight: "320g",
         price: "31 lei",
@@ -493,7 +493,7 @@ const categories = [
     products: [
       {
         id: "l1",
-        name: "Fasole gan bian",
+        name: "Fasole ganbin",
         description: "Fasole verde, ardei gras, ardei iute",
         weight: "320g",
         price: "22 lei",
