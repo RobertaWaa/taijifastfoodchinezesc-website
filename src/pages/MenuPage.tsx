@@ -76,7 +76,7 @@ const categories = [
         id: "a1",
         name: "Pachețele de primăvară",
         description: "Varză, morcov, urechi de lemn",
-        weight: "250g / 9 buc",
+        weight: "9 buc",
         price: "17 lei",
         image: pacheteleImg
       },
@@ -84,7 +84,7 @@ const categories = [
         id: "a2",
         name: "Pachețele de primăvară cu carne",
         description: "Carne",
-        weight: "250g / 9 buc",
+        weight: "6 buc",
         price: "20 lei",
         image: logoImg
       },
@@ -92,7 +92,7 @@ const categories = [
         id: "a3",
         name: "Colțunași prăjiți",
         description: "Carne tocată, făină, ceapă verde",
-        weight: "250g / 7 buc",
+        weight: "7 buc",
         price: "20 lei",
         image: coltunasiImg
       },
@@ -123,7 +123,7 @@ const categories = [
       {
         id: "a7",
         name: "Salată de urechi de lemn",
-        description: "Urechi de lemn, morcov,castraveți, usturoi, ulei de susan",
+        description: "Urechi de lemn, morcov, castraveți, usturoi, ulei de susan",
         weight: "250g",
         price: "21 lei",
         image: salataUrechiImg
@@ -254,7 +254,7 @@ const categories = [
       },
       {
         id: "pr11",
-        name: "Aripiore nai nai",
+        name: "Aripioare nai nai",
         description: "Aripiore de pui, ardei gras, ceapă, susan",
         weight: "320g",
         price: "28 lei",
@@ -262,7 +262,7 @@ const categories = [
       },
       {
         id: "pr12",
-        name: "Aripiore cu foi de dafin",
+        name: "Aripioare cu foi de dafin",
         description: "Aripiore de pui, ceapă, ardei gras, foi de dafin",
         weight: "320g",
         price: "28 lei",
