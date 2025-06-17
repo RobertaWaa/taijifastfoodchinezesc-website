@@ -65,6 +65,8 @@ import supaiuteacImg from '@/assets/supa-iute-acrisoara.jpg';
 import supapuiporumbImg from '@/assets/supa-pui-porumb.jpg';
 import ratapicantaImg from '@/assets/rata-picanta.jpg';
 import vitapicantaImg from '@/assets/vita-picanta.jpg';
+import vitaplitaImg from '@/assets/vita-plita.jpg';
+import orezsimpluImg from '@/assets/orez-simplu.jpg';
 import logoImg from '@/assets/logo_taiji.png';
 
 const categories = [
@@ -296,7 +298,7 @@ const categories = [
         description: "Vită, morcov, ardei gras, urechi de lemn, ciuperci, bambus",
         weight: "320g",
         price: "32 lei",
-        image: logoImg
+        image: vitaplitaImg
       },
       {
         id: "v2",
@@ -412,7 +414,7 @@ const categories = [
         description: "Orez",
         weight: "320g",
         price: "12 lei",
-        image: logoImg
+        image: orezsimpluImg
       },
       {
         id: "on2",
