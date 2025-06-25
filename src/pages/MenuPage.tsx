@@ -67,6 +67,9 @@ import ratapicantaImg from '@/assets/rata-picanta.jpg';
 import vitapicantaImg from '@/assets/vita-picanta.jpg';
 import vitaplitaImg from '@/assets/vita-plita.jpg';
 import orezsimpluImg from '@/assets/orez-simplu.jpg';
+import porcplitaImg from '@/assets/porc-plita.jpg';
+import lapteprajitImg from '@/assets/lapte-prajit.jpg';
+import vinetepesteImg from '@/assets/vinete-peste.jpg';
 import logoImg from '@/assets/logo_taiji.png';
 
 const categories = [
@@ -384,7 +387,7 @@ const categories = [
         description: "Porc, morcov, ardei gras, ciuperci, bambus",
         weight: "320g",
         price: "29 lei",
-        image: logoImg
+        image: porcplitaImg
       },
       {
         id: "p3",
@@ -507,7 +510,7 @@ const categories = [
         description: "Vinete, ceapă verde",
         weight: "320g",
         price: "24 lei",
-        image: logoImg
+        image: vinetepesteImg
       },
       {
         id: "l3",
@@ -583,7 +586,7 @@ const categories = [
         description: "",
         weight: "250g",
         price: "20 lei",
-        image: logoImg
+        image: lapteprajitImg
       }
     ]
   },
