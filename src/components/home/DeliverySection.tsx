@@ -1,7 +1,6 @@
 import boltLogo from "@/assets//bolt.png";
-import tazzLogo from "@/assets//tazz.png";
+import woltLogo from "@/assets//wolt.jpg";
 import glovoLogo from "@/assets//glovo.png";
-import takeawayLogo from "@/assets//takeaway.png";
 
 import { motion } from "framer-motion";
 
@@ -10,21 +9,16 @@ const DeliverySection = () => {
     {
       name: "Bolt Food",
       logo: boltLogo,
-      url: "#"
+      url: "https://food.bolt.eu/ro-RO/325-bucharest/p/155204-taiji-fast-food-chinezesc"
     },
     {
-      name: "Tazz",
-      logo: tazzLogo,
-      url: "#"
+      name: "Wolt",
+      logo: woltLogo,
+      url: "https://wolt.com/ro/rou/bucharest/restaurant/taiji-fast-food-chinezesc-686280891701ef6fdcd295d4"
     },
     {
       name: "Glovo",
       logo: glovoLogo,
-      url: "#"
-    },
-    {
-      name: "Takeaway",
-      logo: takeawayLogo,
       url: "#"
     }
   ];
