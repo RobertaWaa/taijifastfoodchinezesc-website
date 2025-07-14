@@ -19,7 +19,7 @@ const DeliverySection = () => {
     {
       name: "Glovo",
       logo: glovoLogo,
-      url: "#"
+      url: "https://glovoapp.com/ro/ro/bucuresti/taiji-fast-food-chinezesc-buc/"
     }
   ];
   
