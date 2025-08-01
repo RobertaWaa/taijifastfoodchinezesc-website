@@ -91,7 +91,7 @@ const categories = [
         description: "Carne",
         weight: "6 buc",
         price: "24 lei",
-        image: logoImg
+        image: pacheteleImg
       },
       {
         id: "a3",
