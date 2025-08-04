@@ -71,8 +71,8 @@ const ContactPage = () => {
                 <div className="border-t border-gray-200 pt-6">
                   <h3 className="font-semibold text-lg mb-3">Program</h3>
                   <div className="flex flex-col space-y-2">
-                    <p className="text-gray-700"><span className="font-medium">Luni - Vineri:</span> 20:00 - 23:00</p>
-                    <p className="text-gray-700"><span className="font-medium">Sâmbătă - Duminică:</span> 12:00 - 23:00</p>
+                    <p className="text-gray-700"><span className="font-medium">Luni - Vineri:</span> 11:00 - 23:00</p>
+                    <p className="text-gray-700"><span className="font-medium">Sâmbătă - Duminică:</span> 15:00 - 23:00</p>
                   </div>
                 </div>
 
