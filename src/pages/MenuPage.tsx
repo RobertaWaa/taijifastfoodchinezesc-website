@@ -70,6 +70,7 @@ import orezsimpluImg from '@/assets/orez-simplu.jpg';
 import porcplitaImg from '@/assets/porc-plita.jpg';
 import lapteprajitImg from '@/assets/lapte-prajit.jpg';
 import vinetepesteImg from '@/assets/vinete-peste.jpg';
+import rataananasImg from '@/assets/rata-ananas.jpg';
 import logoImg from '@/assets/logo_taiji.png';
 
 const categories = [
@@ -288,6 +289,14 @@ const categories = [
         weight: "350g",
         price: "55 lei",
         image: ratapicantaImg
+      },
+      {
+        id: "pr15",
+        name: "Rață cu ananas",
+        description: "Rață, ananas, mazăre",
+        weight: "350g",
+        price: "55 lei",
+        image: rataananasImg
       }
     ]
   },
@@ -421,6 +430,14 @@ const categories = [
       },
       {
         id: "on2",
+        name: "Orez cu ou",
+        description: "Orez, ou",
+        weight: "320g",
+        price: "18 lei",
+        image: logoImg
+      },
+      {
+        id: "on3",
         name: "Orez picant",
         description: "Orez, legume, pastă de ardei iute",
         weight: "320g",
@@ -428,7 +445,7 @@ const categories = [
         image: orezpicantImg
       },
       {
-        id: "on3",
+        id: "on4",
         name: "Orez cu soia",
         description: "Orez, soia, ciuperci",
         weight: "320g",
@@ -436,7 +453,7 @@ const categories = [
         image: orezsoiaImg
       },
       {
-        id: "on4",
+        id: "on5",
         name: "Orez yangzu",
         description: "Orez, legume, ou, șuncă",
         weight: "320g",
@@ -444,7 +461,7 @@ const categories = [
         image: orezYImg
       },
       {
-        id: "on5",
+        id: "on6",
         name: "Orez curry și fructe de mare",
         description: "Orez, scoici, creveți, calamar",
         weight: "320g",
@@ -452,7 +469,7 @@ const categories = [
         image: orezcurryImg
       },
       {
-        id: "on6",
+        id: "on7",
         name: "Noodles cu legume",
         description: "Noodles, varză, morcov, ciuperci, ceapă",
         weight: "320g",
@@ -460,7 +477,7 @@ const categories = [
         image: noodlesLegumeImg
       },
       {
-        id: "on7",
+        id: "on8",
         name: "Noodles cu pui",
         description: "Noodles, varză, morcov, ciuperci, pui",
         weight: "320g",
@@ -468,7 +485,7 @@ const categories = [
         image: nooflesPuiImg
       },
       {
-        id: "on8",
+        id: "on9",
         name: "Noodles cu vită",
         description: "Noodles, varză, morcov, ceapă, vită",
         weight: "320g",
@@ -476,7 +493,7 @@ const categories = [
         image: noodlesVitaImg
       },
       {
-        id: "on9",
+        id: "on10",
         name: "Noodles cu fructe de mare",
         description: "Noodles, varză, morcov, urechi de lemn, scoici, creveți, calamar",
         weight: "320g",
@@ -484,12 +501,26 @@ const categories = [
         image: noodlesFMImg
       },
       {
-        id: "on10",
+        id: "on11",
         name: "Furnici în copac",
         description: "Noodles, legume, carne tocată de porc",
         weight: "320g",
         price: "28 lei",
         image: furniciImg
+      },{
+        id: "on12",
+        name: "Paste cu sos de piper",
+        description: "Spaghetti, porc, ciuperci, ardei roșu, ardei verde, sos de piper",
+        weight: "320g",
+        price: "28 lei",
+        image: logoImg
+      },{
+        id: "on13",
+        name: "Paste cu sos chili",
+        description: "Spagetti, porc, roșii, ceapă verde, chili",
+        weight: "320g",
+        price: "28 lei",
+        image: logoImg
       },]
     },
     {
