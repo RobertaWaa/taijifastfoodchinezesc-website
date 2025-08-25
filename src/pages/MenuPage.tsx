@@ -71,6 +71,9 @@ import porcplitaImg from '@/assets/porc-plita.jpg';
 import lapteprajitImg from '@/assets/lapte-prajit.jpg';
 import vinetepesteImg from '@/assets/vinete-peste.jpg';
 import rataananasImg from '@/assets/rata-ananas.jpg';
+import orezouImg from '@/assets/orez-ou.jpg';
+import pastechiliImg from '@/assets/paste-chili.jpg';
+import pastepiperImg from '@/assets/paste-piper.jpg';
 import logoImg from '@/assets/logo_taiji.png';
 
 const categories = [
@@ -434,7 +437,7 @@ const categories = [
         description: "Orez, ou",
         weight: "320g",
         price: "18 lei",
-        image: logoImg
+        image: orezouImg
       },
       {
         id: "on3",
@@ -513,14 +516,14 @@ const categories = [
         description: "Spaghetti, porc, ciuperci, ardei roșu, ardei verde, sos de piper",
         weight: "320g",
         price: "28 lei",
-        image: logoImg
+        image: pastepiperImg
       },{
         id: "on13",
         name: "Paste cu sos chili",
         description: "Spagetti, porc, roșii, ceapă verde, chili",
         weight: "320g",
         price: "28 lei",
-        image: logoImg
+        image: pastechiliImg
       },]
     },
     {
