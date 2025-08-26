@@ -110,6 +110,6 @@ bun preview
 
 ---
 
-##License
+## License
 
 © 2025 Taiji Fast Food Chinezesc. All rights reserved.
