@@ -56,7 +56,7 @@ yarn install
 bun install
 ```
 
-###Development
+### Development
 
 Start the dev server with hot reload:
 
@@ -68,7 +68,7 @@ yarn dev
 bun dev
 ```
 
-###Build for Production
+### Build for Production
 
 Generate an optimized build:
 
