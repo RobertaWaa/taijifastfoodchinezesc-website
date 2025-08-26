@@ -1,16 +1,56 @@
-# Welcome 
+# Taiji Fast Food Chinezesc Website
 
-© 2025 Taiji Fast Food Chinezesc. All rights reserved. 
-This code is the property of Taiji Fast Food Chinezesc and may not be copied or redistributed without permission.
+A modern, responsive restaurant website built with Vite, React, TypeScript, Tailwind CSS, and shadcn-ui—designed for Taiji Fast Food Chinezesc.
 
+---
 
-## What technologies are used for this project?
+##  Demo
 
-This project is built with:
+Access the live version here:  
+https://taijifastfoodchinezesc-website.vercel.app
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
+##  Technologies Used
+
+- **Vite** – Fast and lightweight build tool for modern web projects  
+- **React** (with TypeScript) – Component-driven UI architecture  
+- **shadcn-ui** – A modern component library seamlessly integrated with Tailwind CSS  
+- **Tailwind CSS** – Utility-first CSS framework for rapid and responsive styling  
+- **TypeScript** – Statically typed JavaScript for safer, maintainable code
+
+---
+
+##  Features
+
+- **Responsive UI** – Built with Tailwind CSS to be mobile-first and adaptable  
+- **Clean Design** – Component-driven layouts via React and shadcn-ui  
+- **Scalability** – Easily extendable for new pages or components  
+- **Fast Builds & Reload** – Leveraging Vite for efficient development workflow  
+- **Typed Codebase** – Ensured code reliability using TypeScript
+
+---
+
+##  Getting Started
+
+### Prerequisites
+
+Ensure you have one of the following package managers installed:
+
+- Node.js + `npm` (v16+ recommended)  
+- `yarn`  
+- `bun`
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/RobertaWaa/taijifastfoodchinezesc-website.git
+cd taijifastfoodchinezesc-website
+
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+bun install
