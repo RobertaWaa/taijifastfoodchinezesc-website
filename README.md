@@ -93,7 +93,7 @@ bun preview
 ---
 
 ## Project Structure
-```php
+
 ├── public/               # Static assets (e.g., images, favicon)
 ├── src/                  # Source code
 │   ├── components/       # Reusable React components (via shadcn-ui)
@@ -106,7 +106,7 @@ bun preview
 ├── package.json          # Scripts & dependencies
 ├── README.md             # Project documentation
 └── vercel.json           # Vercel deployment configuration
-```
+
 
 ---
 
