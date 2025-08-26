@@ -56,4 +56,60 @@ yarn install
 bun install
 ```
 
-##Development
+###Development
+
+Start the dev server with hot reload:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+bun dev
+```
+
+###Build for Production
+
+Generate an optimized build:
+
+```bash
+npm run build
+# or
+yarn build
+# or
+bun build
+```
+
+Serve locally to preview production build:
+
+```bash
+npm run preview
+# or
+yarn preview
+# or
+bun preview
+```
+
+---
+
+## Project Structure
+```php
+├── public/               # Static assets (e.g., images, favicon)
+├── src/                  # Source code
+│   ├── components/       # Reusable React components (via shadcn-ui)
+│   ├── pages/            # Page-level components and routes
+│   ├── App.tsx           # Root application component
+│   └── main.tsx          # Entry point (React + Vite bootstrap)
+├── tailwind.config.ts    # Tailwind configuration
+├── tsconfig.json         # TypeScript settings
+├── vite.config.ts        # Vite configuration
+├── package.json          # Scripts & dependencies
+├── README.md             # Project documentation
+└── vercel.json           # Vercel deployment configuration
+```
+
+---
+
+##License
+
+© 2025 Taiji Fast Food Chinezesc. All rights reserved.
