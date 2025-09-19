@@ -110,7 +110,7 @@ const categories = [
         name: "Pui Shanghai",
         description: "Piept de pui, făină",
         weight: "300g",
-        price: "32 lei",
+        price: "33 lei",
         image: puiShanghaiImg
       },
       {
@@ -118,7 +118,7 @@ const categories = [
         name: "Salată Taiji",
         description: "Varză, morcov, alge de mare",
         weight: "250g",
-        price: "18 lei",
+        price: "20 lei",
         image: salataTaijiImg
       },
       {
@@ -126,7 +126,7 @@ const categories = [
         name: "Salată de castraveți",
         description: "Castraveți, usturoi, ardei gras",
         weight: "250g",
-        price: "22 lei",
+        price: "24 lei",
         image: salataCastImg
       },
       {
@@ -134,7 +134,7 @@ const categories = [
         name: "Salată de urechi de lemn",
         description: "Urechi de lemn, morcov, castraveți, usturoi, ulei de susan",
         weight: "250g",
-        price: "28 lei",
+        price: "31 lei",
         image: salataUrechiImg
       }
     ]
@@ -186,7 +186,7 @@ const categories = [
         name: "Pui dulce acrișor",
         description: "Pui, ananas, castraveți, morcov",
         weight: "320g",
-        price: "34 lei",
+        price: "36 lei",
         image: puidaImg
       },
       {
@@ -194,7 +194,7 @@ const categories = [
         name: "Pui cu aroma de pește",
         description: "Pui, morcov, ardei gras, usturoi, alge de mare",
         weight: "320g",
-        price: "33 lei",
+        price: "36 lei",
         image: puipesteImg
       },
       {
@@ -202,7 +202,7 @@ const categories = [
         name: "Pui Taiji",
         description: "Pui, susan",
         weight: "320g",
-        price: "34 lei",
+        price: "36 lei",
         image: puitaijiImg
       },
       {
@@ -210,7 +210,7 @@ const categories = [
         name: "Pui cu ciuperci",
         description: "Pui, ciuperci, ceapă verde, ardei gras",
         weight: "320g",
-        price: "33 lei",
+        price: "36 lei",
         image: puiCiupImg
       },
       {
@@ -218,7 +218,7 @@ const categories = [
         name: "Pui cu urechi de lemn",
         description: "Pui, ou, morcov, castraveți, urechi de lemn",
         weight: "320g",
-        price: "34 lei",
+        price: "36 lei",
         image: puiurechiImg
       },
       {
@@ -226,7 +226,7 @@ const categories = [
         name: "Pui cu alune",
         description: "Pui, alune, ceapă, castraveți, morcov",
         weight: "320g",
-        price: "34 lei",
+        price: "36 lei",
         image: puiAluneImg
       },
       {
@@ -234,7 +234,7 @@ const categories = [
         name: "Pui ganbin",
         description: "Pui, morcov, ceapă, ardei iute, susan",
         weight: "320g",
-        price: "34 lei",
+        price: "36 lei",
         image: puiganbianImg
       },
       {
@@ -242,7 +242,7 @@ const categories = [
         name: "Pui pe plită",
         description: "Pui, morcov, ardei gras, urechi de lemn, ciuperci, bambus",
         weight: "320g",
-        price: "33 lei",
+        price: "36 lei",
         image: puiplitaImg
       },
       {
@@ -250,7 +250,7 @@ const categories = [
         name: "Explozie de pui",
         description: "Pui, condimente chinezești",
         weight: "320g",
-        price: "34 lei",
+        price: "36 lei",
         image: exploziePuiImg
       },
       {
@@ -258,7 +258,7 @@ const categories = [
         name: "Pui cu susan",
         description: "Pui, susan, salată verde",
         weight: "320g",
-        price: "32 lei",
+        price: "36 lei",
         image: puiSusanImg
       },
       {
@@ -266,7 +266,7 @@ const categories = [
         name: "Aripioare nai nai",
         description: "Aripiore de pui, ardei gras, ceapă, susan",
         weight: "320g",
-        price: "35 lei",
+        price: "36 lei",
         image: aripioareNaiImg
       },
       {
@@ -274,7 +274,7 @@ const categories = [
         name: "Aripioare cu foi de dafin",
         description: "Aripiore de pui, ceapă, ardei gras, foi de dafin",
         weight: "320g",
-        price: "35 lei",
+        price: "36 lei",
         image: aripioareDafinImg
       },
       {
@@ -312,7 +312,7 @@ const categories = [
         name: "Vită pe plită",
         description: "Vită, morcov, ardei gras, urechi de lemn, ciuperci, bambus",
         weight: "320g",
-        price: "42 lei",
+        price: "45 lei",
         image: vitaplitaImg
       },
       {
@@ -320,7 +320,7 @@ const categories = [
         name: "Vită picantă",
         description: "Vită, ardei iute, ceapă",
         weight: "320g",
-        price: "42 lei",
+        price: "45 lei",
         image: vitapicantaImg
       },
       {
@@ -328,7 +328,7 @@ const categories = [
         name: "Vită crocantă cu țelină",
         description: "Vită, țelină verde",
         weight: "320g",
-        price: "45 lei",
+        price: "48 lei",
         image: vitaTelinaImg
       },
       {
@@ -336,7 +336,7 @@ const categories = [
         name: "Vită ganbin",
         description: "Vită, ardei iute, ceapă, susan",
         weight: "320g",
-        price: "45 lei",
+        price: "48 lei",
         image: vitaGanbianImg
       },
       {
@@ -344,7 +344,7 @@ const categories = [
         name: "Vită cu sos stridii",
         description: "Vită, ardei gras, ceapă, bambus, urechi de lemn",
         weight: "320g",
-        price: "42 lei",
+        price: "45 lei",
         image: vitastridieImg
       },
       {
@@ -352,7 +352,7 @@ const categories = [
         name: "Vită condimentată",
         description: "Vită, praz, chimen, condimente chinezești",
         weight: "320g",
-        price: "42 lei",
+        price: "45 lei",
         image: vitacondiImg
       },
       {
@@ -360,7 +360,7 @@ const categories = [
         name: "Vită cu cartofi",
         description: "Vită, cartofi, ardei roșu",
         weight: "320g",
-        price: "42 lei",
+        price: "45 lei",
         image: vitaCartofiImg
       },
       {
@@ -368,7 +368,7 @@ const categories = [
         name: "Vită și Chuan",
         description: "Vită, ceapă, ciuperci, varză, morcov",
         weight: "350g",
-        price: "42 lei",
+        price: "45 lei",
         image: vitaChuanImg
       },
       {
@@ -376,7 +376,7 @@ const categories = [
         name: "Vită fiartă iute",
         description: "Vită, varză, urechi de lemn, ceapă verde, castravete, usturoi",
         weight: "500g",
-        price: "45 lei",
+        price: "50 lei",
         image: vitaIuteImg
       }
     ]
@@ -390,7 +390,7 @@ const categories = [
         name: "Porc cu ciuperci",
         description: "Porc, ciuperci, ceapă verde",
         weight: "320g",
-        price: "32 lei",
+        price: "35 lei",
         image: porcciupImg
       },
       {
@@ -398,7 +398,7 @@ const categories = [
         name: "Porc pe plită",
         description: "Porc, morcov, ardei gras, ciuperci, bambus",
         weight: "320g",
-        price: "32 lei",
+        price: "35 lei",
         image: porcplitaImg
       },
       {
@@ -406,7 +406,7 @@ const categories = [
         name: "Porc muxu",
         description: "Porc, ou, morcov, castraveți, urechi de lemn",
         weight: "320g",
-        price: "33 lei",
+        price: "35 lei",
         image: porcMuxuImg
       },
       {
@@ -436,7 +436,7 @@ const categories = [
         name: "Orez cu ou",
         description: "Orez, ou",
         weight: "320g",
-        price: "18 lei",
+        price: "19 lei",
         image: orezouImg
       },
       {
@@ -444,7 +444,7 @@ const categories = [
         name: "Orez picant",
         description: "Orez, legume, pastă de ardei iute",
         weight: "320g",
-        price: "18 lei",
+        price: "19 lei",
         image: orezpicantImg
       },
       {
@@ -452,7 +452,7 @@ const categories = [
         name: "Orez cu soia",
         description: "Orez, soia, ciuperci",
         weight: "320g",
-        price: "18 lei",
+        price: "19 lei",
         image: orezsoiaImg
       },
       {
@@ -460,7 +460,7 @@ const categories = [
         name: "Orez yangzu",
         description: "Orez, legume, ou, șuncă",
         weight: "320g",
-        price: "18 lei",
+        price: "19 lei",
         image: orezYImg
       },
       {
@@ -468,7 +468,7 @@ const categories = [
         name: "Orez curry și fructe de mare",
         description: "Orez, scoici, creveți, calamar",
         weight: "320g",
-        price: "28 lei",
+        price: "30 lei",
         image: orezcurryImg
       },
       {
@@ -476,7 +476,7 @@ const categories = [
         name: "Noodles cu legume",
         description: "Noodles, varză, morcov, ciuperci, ceapă",
         weight: "320g",
-        price: "26 lei",
+        price: "28 lei",
         image: noodlesLegumeImg
       },
       {
@@ -484,7 +484,7 @@ const categories = [
         name: "Noodles cu pui",
         description: "Noodles, varză, morcov, ciuperci, pui",
         weight: "320g",
-        price: "28 lei",
+        price: "30 lei",
         image: nooflesPuiImg
       },
       {
@@ -492,7 +492,7 @@ const categories = [
         name: "Noodles cu vită",
         description: "Noodles, varză, morcov, ceapă, vită",
         weight: "320g",
-        price: "31 lei",
+        price: "32 lei",
         image: noodlesVitaImg
       },
       {
@@ -500,7 +500,7 @@ const categories = [
         name: "Noodles cu fructe de mare",
         description: "Noodles, varză, morcov, urechi de lemn, scoici, creveți, calamar",
         weight: "320g",
-        price: "35 lei",
+        price: "36 lei",
         image: noodlesFMImg
       },
       {
@@ -508,21 +508,21 @@ const categories = [
         name: "Furnici în copac",
         description: "Noodles, legume, carne tocată de porc",
         weight: "320g",
-        price: "28 lei",
+        price: "30 lei",
         image: furniciImg
       },{
         id: "on12",
         name: "Paste cu sos de piper",
         description: "Spaghetti, porc, ciuperci, ardei roșu, ardei verde, sos de piper",
         weight: "320g",
-        price: "28 lei",
+        price: "30 lei",
         image: pastepiperImg
       },{
         id: "on13",
         name: "Paste cu sos chili",
         description: "Spagetti, porc, roșii, ceapă verde, chili",
         weight: "320g",
-        price: "28 lei",
+        price: "30 lei",
         image: pastechiliImg
       },]
     },
@@ -535,7 +535,7 @@ const categories = [
         name: "Fasole ganbin",
         description: "Fasole verde, ardei gras, ardei iute",
         weight: "320g",
-        price: "26 lei",
+        price: "28 lei",
         image: fasoleGanbianImg
       },
       {
@@ -543,7 +543,7 @@ const categories = [
         name: "Vinete cu aroma de pește",
         description: "Vinete, ceapă verde",
         weight: "320g",
-        price: "26 lei",
+        price: "28 lei",
         image: vinetepesteImg
       },
       {
@@ -573,7 +573,7 @@ const categories = [
         name: "Fructe de mare în sos chinezesc",
         description: "Scoici, creveți, calamar",
         weight: "350g",
-        price: "53 lei",
+        price: "55 lei",
         image: fructesosImg
       },
       {
