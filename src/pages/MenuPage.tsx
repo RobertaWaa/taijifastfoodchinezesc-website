@@ -74,6 +74,8 @@ import rataananasImg from '@/assets/rata-ananas.jpg';
 import orezouImg from '@/assets/orez-ou.jpg';
 import pastechiliImg from '@/assets/paste-chili.jpg';
 import pastepiperImg from '@/assets/paste-piper.jpg';
+import waloviImg from '@/assets/walovi.jpg';
+import berecImg from '@/assets/berec.jpg';
 import logoImg from '@/assets/logo_taiji.png';
 
 const categories = [
@@ -659,6 +661,22 @@ const categories = [
         weight: "0.5L",
         price: "6 lei",
         image: apaImg
+      },
+      {
+        id: "b5",
+        name: "Walovi (ceai chinezesc)",
+        description: "",
+        weight: "0.31L",
+        price: "12 lei",
+        image: waloviImg
+      },
+      {
+        id: "b6",
+        name: "Bere Tsingtao (chinezească)",
+        description: "",
+        weight: "0.33L",
+        price: "14 lei",
+        image: berecImg
       }
     ]
   },
