@@ -1,17 +1,5 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://www.taijirestaurant.ro/",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "destination": "https://www.taijirestaurant.ro/:path*",
-      "permanent": true
-    }
   ]
 }
