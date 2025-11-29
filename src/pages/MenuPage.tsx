@@ -76,6 +76,7 @@ import pastechiliImg from '@/assets/paste-chili.jpg';
 import pastepiperImg from '@/assets/paste-piper.jpg';
 import waloviImg from '@/assets/walovi.jpg';
 import berecImg from '@/assets/berec.jpg';
+import laptecocosImg from '@/assets/laptecocos.jpg';
 import logoImg from '@/assets/logo_taiji.png';
 
 const categories = [
@@ -632,38 +633,6 @@ const categories = [
     products: [
       {
         id: "b1",
-        name: "Coca Cola",
-        description: "",
-        weight: "0.33L",
-        price: "8 lei",
-        image: colaImg
-      },
-      {
-        id: "b2",
-        name: "Fanta",
-        description: "",
-        weight: "0.33L",
-        price: "8 lei",
-        image: fantaImg
-      },
-      {
-        id: "b3",
-        name: "Sprite",
-        description: "",
-        weight: "0.33L",
-        price: "8 lei",
-        image: spriteImg
-      },
-      {
-        id: "b4",
-        name: "Apă plată",
-        description: "",
-        weight: "0.5L",
-        price: "6 lei",
-        image: apaImg
-      },
-      {
-        id: "b5",
         name: "Walovi (ceai chinezesc)",
         description: "",
         weight: "0.31L",
@@ -671,12 +640,52 @@ const categories = [
         image: waloviImg
       },
       {
-        id: "b6",
+        id: "b2",
         name: "Bere Tsingtao (chinezească)",
         description: "",
         weight: "0.33L",
         price: "14 lei",
         image: berecImg
+      },
+      {
+        id: "b3",
+        name: "Lapte de cocos (chinezesc)",
+        description: "",
+        weight: "0.33L",
+        price: "12 lei",
+        image: laptecocosImg
+      },
+      {
+        id: "b4",
+        name: "Coca Cola",
+        description: "",
+        weight: "0.33L",
+        price: "8 lei",
+        image: colaImg
+      },
+      {
+        id: "b5",
+        name: "Fanta",
+        description: "",
+        weight: "0.33L",
+        price: "8 lei",
+        image: fantaImg
+      },
+      {
+        id: "b6",
+        name: "Sprite",
+        description: "",
+        weight: "0.33L",
+        price: "8 lei",
+        image: spriteImg
+      },
+      {
+        id: "b7",
+        name: "Apă plată",
+        description: "",
+        weight: "0.5L",
+        price: "6 lei",
+        image: apaImg
       }
     ]
   },
