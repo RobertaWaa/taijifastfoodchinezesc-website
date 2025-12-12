@@ -14,10 +14,10 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <img
                 src={logoTaiji}
-                alt="Taiji Fast Food Chinezesc Logo"
+                alt="Taiji Restaurant Chinezesc Logo"
                 className="h-16 w-16 mr-3"
               />
-              <h3 className="font-bold text-xl">Taiji Fast Food Chinezesc</h3>
+              <h3 className="font-bold text-xl">Taiji Restaurant Chinezesc</h3>
             </div>
             <p className="text-gray-200 mb-4">
               Savurează autenticitatea bucătăriei chinezești în inima Bucureștiului.
@@ -33,7 +33,7 @@ const Footer = () => {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://www.instagram.com/taijifastfoodchinezesc/"
+                href="https://www.instagram.com/taijirestaurant/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-chinese-gold transition-colors"
@@ -42,7 +42,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a
-                href="https://www.tiktok.com/@taijifastfoodchinezesc"
+                href="https://www.tiktok.com/@taijirestaurant"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-chinese-gold transition-colors"
@@ -96,7 +96,7 @@ const Footer = () => {
             </ul>
             <p className="flex items-center mt-4">
               <MapPin size={18} className="mr-2 flex-shrink-0" /> 
-              <span>Strada Telița, Nr. 54, București, Sector 5, România</span>
+              <span>Livrare: Glovo, Bolt Food, Wolt</span>
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@ const Footer = () => {
               ANPC
             </a>
           </div>
-          <p className="text-center">&copy; {currentYear} Taiji Fast Food Chinezesc. Toate drepturile rezervate.</p>
+          <p className="text-center">&copy; {currentYear} Taiji Restaurant Chinezesc. Toate drepturile rezervate.</p>
         </div>
       </div>
     </footer>

@@ -6,10 +6,10 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact | Taiji Fast Food Chinezesc</title>
+        <title>Contact | Taiji Restaurant Chinezesc</title>
         <meta
           name="description"
-          content="Contactează restaurantul Taiji Fast Food Chinezesc. Află programul nostru, adresa, numărul de telefon și metodele de comandă online."
+          content="Contactează restaurantul Taiji Restaurant Chinezesc. Află programul nostru, adresa, numărul de telefon și metodele de comandă online."
         />
       </Helmet>
 
@@ -61,9 +61,9 @@ const ContactPage = () => {
                     <MapPin className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">Adresă</h3>
+                    <h3 className="font-semibold text-lg">Livrare</h3>
                     <p className="text-gray-700">
-                      Strada Telița, Nr. 54, Bucuresti, Sector 5, Romania
+                      Glovo, Bolt Food, Wolt
                     </p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const ContactPage = () => {
                       <Facebook className="h-5 w-5" />
                     </a>
                     <a 
-                      href="https://www.instagram.com/taijifastfoodchinezesc/" 
+                      href="https://www.instagram.com/taijirestaurant/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-chinese-red p-3 rounded-full text-white hover:bg-chinese-darkred transition-colors"
@@ -98,7 +98,7 @@ const ContactPage = () => {
                       <Instagram className="h-5 w-5" />
                     </a>
                     <a 
-                      href="https://www.tiktok.com/@taijifastfoodchinezesc" 
+                      href="https://www.tiktok.com/@taijirestaurant" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-chinese-red p-3 rounded-full text-white hover:bg-chinese-darkred transition-colors"
@@ -119,9 +119,9 @@ const ContactPage = () => {
                 </div>
               </div>
             </div>
-
+ 
             {/* Google Maps */}
-            <div className="bg-white rounded-lg shadow-lg p-8 h-full">
+            {/* <div className="bg-white rounded-lg shadow-lg p-8 h-full">
               <h2 className="text-2xl font-bold mb-6 text-chinese-red">Localizare</h2>
               <div className="aspect-video w-full h-[400px] rounded-lg overflow-hidden">
                 <iframe
@@ -141,7 +141,7 @@ const ContactPage = () => {
                   cu acces facil din orice parte a orașului.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

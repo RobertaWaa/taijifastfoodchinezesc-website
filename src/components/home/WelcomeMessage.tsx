@@ -17,7 +17,7 @@ const WelcomeMessage = () => {
           >
             <h2 className="text-3xl font-bold text-chinese-red mb-6">Bun venit la Taiji</h2>
             <p className="text-gray-700 mb-6 text-lg">
-              La Taiji Fast Food Chinezesc, te întâmpinăm cu mâncăruri proaspete, preparate din ingrediente de calitate și cu rețete autentice aduse direct din China.
+              La Taiji Restaurant Chinezesc, te întâmpinăm cu mâncăruri proaspete, preparate din ingrediente de calitate și cu rețete autentice aduse direct din China.
             </p>
             <p className="text-gray-700 mb-6 text-lg">
               Fiecare fel de mâncare este gătit cu pasiune, respect pentru tradiție și atenție la detalii, pentru a-ți oferi o experiență culinară memorabilă.

@@ -6,8 +6,8 @@ const TermsAndConditionsPage = () => {
   return (
     <div className="container mx-auto py-12 px-4">
       <Helmet>
-        <title>Termeni și Condiții - Taiji Fast Food Chinezesc</title>
-        <meta name="description" content="Termenii și condițiile pentru restaurantul Taiji Fast Food Chinezesc" />
+        <title>Termeni și Condiții - Taiji Restaurant Chinezesc</title>
+        <meta name="description" content="Termenii și condițiile pentru restaurantul Taiji Restaurant Chinezesc" />
       </Helmet>
 
       <h1 className="text-3xl font-bold text-center text-chinese-red mb-8">Termeni și Condiții</h1>
@@ -21,7 +21,7 @@ const TermsAndConditionsPage = () => {
           <h2 className="text-xl font-bold text-chinese-red mb-4">1. Introducere</h2>
           <p>
             Acești Termeni și Condiții guvernează utilizarea site-ului web operat de TAIJI FAST FOOD S.R.L. 
-            („noi", „nostru" sau „compania"), precum și serviciile oferite de restaurantul nostru Taiji Fast Food Chinezesc.
+            („noi", „nostru" sau „compania"), precum și serviciile oferite de restaurantul nostru Taiji Restaurant Chinezesc.
           </p>
           <p>
             Prin accesarea site-ului nostru și utilizarea serviciilor noastre, sunteți de acord cu acești Termeni și Condiții în 

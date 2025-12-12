@@ -28,7 +28,7 @@ const HeroSection = ({ onExploreClick }: HeroSectionProps) => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-            Taiji Fast Food <span className="text-chinese-gold">Chinezesc</span>
+            Taiji Restaurant <span className="text-chinese-gold">Chinezesc</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
             Savurează autenticitatea bucătăriei chinezești în inima Bucureștiului

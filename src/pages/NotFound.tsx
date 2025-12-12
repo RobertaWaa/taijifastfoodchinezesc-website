@@ -15,7 +15,7 @@ const NotFound = () => {
   return (
     <>
       <Helmet>
-        <title>Pagină negăsită | Taiji Fast Food Chinezesc</title>
+        <title>Pagină negăsită | Taiji Restaurant Chinezesc</title>
         <meta name="robots" content="noindex" />
       </Helmet>
       

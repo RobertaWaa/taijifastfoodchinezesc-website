@@ -764,7 +764,7 @@ const MenuPage = () => {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Meniu | Taiji Fast Food Chinezesc</title>
+        <title>Meniu | Taiji Restaurant Chinezesc</title>
         <meta
           name="description"
           content="Descoperă meniul nostru complet cu preparate autentice chinezești. Aperitive, supe, feluri principale și deserturi pregătite după rețete tradiționale."

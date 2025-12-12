@@ -43,11 +43,11 @@ const Navbar = () => {
         <Link to="/" className="flex items-center space-x-2">
           <img
             src={logoTaiji}
-            alt="Taiji Fast Food Chinezesc Logo"
+            alt="Taiji Restaurant Chinezesc Logo"
             className="h-16 w-16"
           />
           <span className={`font-bold text-lg ${isScrolled ? 'text-chinese-red' : 'text-chinese-red'}`}>
-            Taiji Fast Food Chinezesc
+            Taiji Restaurant Chinezesc
           </span>
         </Link>
 

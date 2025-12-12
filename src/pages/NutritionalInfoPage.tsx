@@ -625,7 +625,7 @@ const NutritionalInfoPage = () => {
   return (
     <>
       <Helmet>
-        <title>Informații Nutriționale | Taiji Fast Food Chinezesc</title>
+        <title>Informații Nutriționale | Taiji Restaurant Chinezesc</title>
         <meta
           name="description"
           content="Consultă informațiile nutriționale pentru preparatele noastre. Aflați valorile calorice, conținutul de proteine, carbohidrați, grăsimi și alergenii pentru fiecare fel de mâncare."

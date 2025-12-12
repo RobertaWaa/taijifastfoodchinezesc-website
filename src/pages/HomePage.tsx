@@ -22,7 +22,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Taiji Fast Food Chinezesc | Restaurant Chinezesc în București</title>
+        <title>Taiji Restaurant Chinezesc | Restaurant Chinezesc în București</title>
         <meta
           name="description"
           content="Restaurant cu mâncare tradițională chinezească în București. Comandă online sau vizitează-ne pentru a savura cele mai autentice preparate chinezești."

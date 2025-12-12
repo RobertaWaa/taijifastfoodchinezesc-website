@@ -6,8 +6,8 @@ const PrivacyPolicyPage = () => {
   return (
     <div className="container mx-auto py-12 px-4">
       <Helmet>
-        <title>Politică de Confidențialitate - Taiji Fast Food Chinezesc</title>
-        <meta name="description" content="Politica de confidențialitate a restaurantului Taiji Fast Food Chinezesc" />
+        <title>Politică de Confidențialitate - Taiji Restaurant Chinezesc</title>
+        <meta name="description" content="Politica de confidențialitate a restaurantului Taiji Restaurant Chinezesc" />
       </Helmet>
 
       <h1 className="text-3xl font-bold text-center text-chinese-red mb-8">Politică de Confidențialitate</h1>
@@ -21,7 +21,7 @@ const PrivacyPolicyPage = () => {
           <h2 className="text-xl font-bold text-chinese-red mb-4">1. Introducere</h2>
           <p>
             Această Politică de Confidențialitate explică modul în care TAIJI FAST FOOD S.R.L. („noi", „nostru" sau „compania"), 
-            operator al restaurantului Taiji Fast Food Chinezesc, colectează, utilizează, divulgă și protejează 
+            operator al restaurantului Taiji Restaurant Chinezesc, colectează, utilizează, divulgă și protejează 
             informațiile personale pe care le obținem de la utilizatorii site-ului nostru și de la clienții restaurantului nostru.
           </p>
         </section>
